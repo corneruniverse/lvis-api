@@ -96,6 +96,14 @@ class LVIS:
         ]
         return ann_ids
 
+    def get_cat(self):
+        """Get all category info.
+
+        Returns:
+            ? (? array): string array of category names
+        """
+        return self.dataset["categories"]
+
     def get_cat_ids(self):
         """Get all category ids.
 
@@ -103,6 +111,26 @@ class LVIS:
             ids (int array): integer array of category ids
         """
         return list(self.cats.keys())
+
+    def get_cat_names(self):
+        """
+        Returns a list of category names (strings) from the LVIS dataset.
+        By default, this returns the first synonym in each category's 'synonyms' list.
+        """
+        cat_names = []
+        categories = self.dataset.get('categories', [])
+        
+        for cat in categories:
+            # Make sure 'synonyms' exists and has at least one element
+            if 'synonyms' in cat and cat['synonyms']:
+                cat_names.append(cat['synonyms'][0])
+            else:
+                # Fallback in case 'synonyms' is missing or empty
+                cat_names.append(None)
+                
+        return cat_names
+
+        
 
     def get_img_ids(self):
         """Get all img ids.

@@ -1,8 +1,8 @@
 from lvis import LVIS
 
-obj = LVIS("./lvis_v1_train.json")
+obj = LVIS("../dataset/lvis_v1_train.json")
 
-list_cat_ids = obj.get_cat_ids()
+category_names = obj.get_cat_names()
 
-print(list_cat_ids)
+print(category_names)
 
