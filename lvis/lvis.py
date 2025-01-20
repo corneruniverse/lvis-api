@@ -156,6 +156,57 @@ class LVIS:
 
         print(f"Categories successfully written to {csv_file_path}")
 
+    def write_annotations_for_category(self, category_id, csv_file_path):
+        """
+        1) Gather all image IDs that have annotations for the specified category_id.
+        2) From those images, collect only the annotations that match the same category_id.
+        3) Write those annotations to a CSV file.
+
+        The CSV will include:
+        - id
+        - image_id
+        - category_id
+        - segmentation
+        - area
+        - bbox
+
+        Args:
+            category_id (int): The category ID to filter on.
+            csv_file_path (str): The path (including filename) for the CSV file.
+        """
+
+        # 1) Identify all image_ids that contain this category.
+        image_ids_for_category = set()
+        for ann in self.dataset['annotations']:
+            if ann['category_id'] == category_id:
+                image_ids_for_category.add(ann['image_id'])
+
+        # 2) Filter annotations for those images AND matching the category_id.
+        relevant_annotations = []
+        for ann in self.dataset['annotations']:
+            if (ann['image_id'] in image_ids_for_category) and (ann['category_id'] == category_id):
+                relevant_annotations.append(ann)
+
+        # 3) Write the filtered annotations to CSV.
+        fieldnames = ['id', 'image_id', 'category_id', 'segmentation', 'area', 'bbox']
+        with open(csv_file_path, mode='w', newline='', encoding='utf-8') as csv_file:
+            writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+            writer.writeheader()
+
+            for ann in relevant_annotations:
+                row_data = {
+                    'id': ann.get('id', ''),
+                    'image_id': ann.get('image_id', ''),
+                    'category_id': ann.get('category_id', ''),
+                    # segmentation can be a list (polygon) or RLE. Convert as needed.
+                    'segmentation': ann.get('segmentation', ''),
+                    'area': ann.get('area', ''),
+                    'bbox': ann.get('bbox', '')  # Usually [x, y, width, height]
+                }
+                writer.writerow(row_data)
+
+        print(f"Found {len(image_ids_for_category)} images for category_id={category_id}. "
+            f"Wrote {len(relevant_annotations)} annotations to '{csv_file_path}'.")
 
 
     def get_cat_ids(self):
