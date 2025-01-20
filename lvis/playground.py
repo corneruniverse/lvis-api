@@ -2,7 +2,6 @@ from lvis import LVIS
 
 obj = LVIS("../dataset/lvis_v1_train.json")
 
-category_names = obj.get_cat_names()
+obj.write_categories_to_csv("lvis_categories.csv")
 
-print(category_names)
 

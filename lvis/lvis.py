@@ -14,6 +14,8 @@ from urllib.request import urlretrieve
 
 import pycocotools.mask as mask_utils
 
+import csv
+
 
 class LVIS:
     def __init__(self, annotation_path):
@@ -103,6 +105,58 @@ class LVIS:
             ? (? array): string array of category names
         """
         return self.dataset["categories"]
+
+    
+
+    def write_categories_to_csv(self, csv_file_path):
+        """
+        Writes the LVIS categories to a CSV file.
+
+        Args:
+            csv_file_path (str): The path (including filename) where the CSV should be saved.
+        """
+        # Extract category info from the dataset
+        categories = self.dataset.get('categories', [])
+
+        # Define the CSV header
+        # If you prefer a different name than 'def' for the CSV column, change it here (e.g., "definition")
+        fieldnames = [
+            'id',
+            'synset',
+            'synonyms',
+            'def',
+            'instance_count',
+            'image_count',
+            'frequency'
+        ]
+
+        # Open the file and create a writer
+        with open(csv_file_path, mode='w', newline='', encoding='utf-8') as csv_file:
+            writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+            
+            # Write the header
+            writer.writeheader()
+            
+            # Write each category to the CSV
+            for cat in categories:
+                # Convert list of synonyms to a single string (e.g., joined by '|')
+                synonyms_str = '|'.join(cat.get('synonyms', []))
+                
+                row_data = {
+                    'id': cat.get('id', ''),
+                    'synset': cat.get('synset', ''),
+                    'synonyms': synonyms_str,
+                    'def': cat.get('def', ''),
+                    'instance_count': cat.get('instance_count', ''),
+                    'image_count': cat.get('image_count', ''),
+                    'frequency': cat.get('frequency', '')
+                }
+                
+                writer.writerow(row_data)
+
+        print(f"Categories successfully written to {csv_file_path}")
+
+
 
     def get_cat_ids(self):
         """Get all category ids.
