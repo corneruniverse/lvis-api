@@ -1,0 +1,1204 @@
+id,synset,synonyms,def,instance_count,image_count,frequency
+1,aerosol.n.02,aerosol_can|spray_can,a dispenser that holds a substance under pressure,11,8,c
+2,air_conditioner.n.01,air_conditioner,a machine that keeps air cool and dry,146,65,f
+3,airplane.n.01,airplane|aeroplane,an aircraft that has a fixed wing and is powered by propellers or jets,619,349,f
+4,alarm_clock.n.01,alarm_clock,a clock that wakes a sleeper at some preset time,60,25,f
+5,alcohol.n.01,alcohol|alcoholic_beverage,a liquor or brew containing alcohol as the active agent,149,14,c
+6,alligator.n.02,alligator|gator,amphibious reptiles related to crocodiles but with shorter broader snouts,1,1,c
+7,almond.n.02,almond,oval-shaped edible seed of the almond tree,302,14,c
+8,ambulance.n.01,ambulance,a vehicle that takes people to and from hospitals,6,2,c
+9,amplifier.n.01,amplifier,electronic equipment that increases strength of signals,3,2,c
+10,anklet.n.03,anklet|ankle_bracelet,an ornament worn around the ankle,8,7,c
+11,antenna.n.01,antenna|aerial|transmitting_aerial,an electrical device that sends or receives radio or television signals,202,93,f
+12,apple.n.01,apple,fruit with red or yellow or green skin and sweet to tart crisp whitish flesh,3116,210,f
+13,applesauce.n.01,applesauce,puree of stewed apples usually sweetened and spiced,3,1,r
+14,apricot.n.02,apricot,downy yellow to rosy-colored fruit resembling a small peach,0,0,r
+15,apron.n.01,apron,a garment of cloth that is tied about the waist and worn to protect clothing,161,98,f
+16,aquarium.n.01,aquarium|fish_tank,a tank/pool/bowl filled with water for keeping live fish and underwater animals,10,10,c
+17,arctic.n.02,arctic_(type_of_shoe)|galosh|golosh|rubber_(type_of_shoe)|gumshoe,a waterproof overshoe that protects shoes from water or snow,0,0,r
+18,armband.n.02,armband,a band worn around the upper arm,15,8,c
+19,armchair.n.01,armchair,chair with a support on each side for arms,207,111,f
+20,armoire.n.01,armoire,a large wardrobe or cabinet,1,1,r
+21,armor.n.01,armor|armour,protective covering made of metal and used in combat,5,2,r
+22,artichoke.n.02,artichoke,a thistlelike flower head with edible fleshy leaves and heart,32,3,c
+23,ashcan.n.01,trash_can|garbage_can|wastebin|dustbin|trash_barrel|trash_bin,a bin that holds rubbish until it is collected,548,389,f
+24,ashtray.n.01,ashtray,a receptacle for the ash from smokers' cigars or cigarettes,51,30,c
+25,asparagus.n.02,asparagus,edible young shoots of the asparagus plant,150,15,c
+26,atomizer.n.01,atomizer|atomiser|spray|sprayer|nebulizer|nebuliser,a dispenser that turns a liquid (such as perfume) into a fine mist,11,9,c
+27,avocado.n.01,avocado,a pear-shaped fruit with green or blackish skin and rich yellowish pulp enclosing a single large seed,152,24,f
+28,award.n.02,award|accolade,a tangible symbol signifying approval or distinction,51,13,c
+29,awning.n.01,awning,a canopy made of canvas to shelter people or things from rain or sun,888,273,f
+30,ax.n.01,ax|axe,an edge tool with a heavy bladed head mounted across a handle,5,2,r
+31,baboon.n.01,baboon,large terrestrial monkeys having doglike muzzles,0,0,r
+32,baby_buggy.n.01,baby_buggy|baby_carriage|perambulator|pram|stroller,a small vehicle with four wheels in which a baby or child is pushed around,78,67,f
+33,backboard.n.01,basketball_backboard,a raised vertical board with basket attached; used to play basketball,7,7,c
+34,backpack.n.01,backpack|knapsack|packsack|rucksack|haversack,a bag carried by a strap on your back or shoulder,947,397,f
+35,bag.n.04,handbag|purse|pocketbook,a container used for carrying money and small personal items or accessories,713,367,f
+36,bag.n.06,suitcase|baggage|luggage,cases used to carry belongings when traveling,1791,315,f
+37,bagel.n.01,bagel|beigel,glazed yeast-raised doughnut-shaped roll with hard crust,68,13,c
+38,bagpipe.n.01,bagpipe,a tubular wind instrument; the player blows air into a bag and squeezes it out,0,0,r
+39,baguet.n.01,baguet|baguette,narrow French stick loaf,0,0,r
+40,bait.n.02,bait|lure,something used to lure fish or other animals into danger so they can be trapped or killed,0,0,r
+41,ball.n.06,ball,a spherical object used as a plaything,107,51,f
+42,ballet_skirt.n.01,ballet_skirt|tutu,very short skirt worn by ballerinas,0,0,r
+43,balloon.n.01,balloon,large tough nonrigid bag filled with gas or heated air,272,31,f
+44,bamboo.n.02,bamboo,woody tropical grass having hollow woody stems,57,12,c
+45,banana.n.02,banana,elongated crescent-shaped yellow fruit with soft sweet flesh,9156,338,f
+46,band_aid.n.01,Band_Aid,trade name for an adhesive bandage to cover small cuts or blisters,0,0,c
+47,bandage.n.01,bandage,a piece of soft material that covers and protects an injured part of the body,17,9,c
+48,bandanna.n.01,bandanna|bandana,large and brightly colored handkerchief; often used as a neckerchief,49,24,f
+49,banjo.n.01,banjo,a stringed instrument of the guitar family with a long neck and circular body,0,0,r
+50,banner.n.01,banner|streamer,long strip of cloth or paper used for decoration or advertising,1163,269,f
+51,barbell.n.01,barbell,a bar to which heavy discs are attached at each end; used in weightlifting,1,1,r
+52,barge.n.01,barge,a flatbottom boat for carrying heavy loads (especially on canals),0,0,r
+53,barrel.n.02,barrel|cask,a cylindrical container that holds liquids,51,20,f
+54,barrette.n.01,barrette,a pin for holding women's hair in place,12,9,c
+55,barrow.n.03,barrow|garden_cart|lawn_cart|wheelbarrow,a cart for carrying small loads; has handles and one or more wheels,3,3,c
+56,base.n.03,baseball_base,a place that the runner must touch before scoring,78,63,f
+57,baseball.n.02,baseball,a ball used in playing baseball,201,142,f
+58,baseball_bat.n.01,baseball_bat,an implement used in baseball by the batter,522,342,f
+59,baseball_cap.n.01,baseball_cap|jockey_cap|golf_cap,a cap with a bill,1551,350,f
+60,baseball_glove.n.01,baseball_glove|baseball_mitt,the handwear used by fielders in playing baseball,477,311,f
+61,basket.n.01,basket|handbasket,a container that is usually woven and has handles,731,311,f
+62,basketball.n.02,basketball,an inflated ball used in playing basketball,14,9,c
+63,bass_horn.n.01,bass_horn|sousaphone|tuba,the lowest brass wind instrument,3,1,r
+64,bat.n.01,bat_(animal),nocturnal mouselike mammal with forelimbs modified to form membranous wings,2,1,c
+65,bath_mat.n.01,bath_mat,a heavy towel or mat to stand on while drying yourself after a bath,63,52,f
+66,bath_towel.n.01,bath_towel,a large towel; to dry yourself after a bath,274,80,f
+67,bathrobe.n.01,bathrobe,a loose-fitting robe of towelling; worn after a bath or swim,10,7,c
+68,bathtub.n.01,bathtub|bathing_tub,a large open container that you fill with water and use to wash the body,170,157,f
+69,batter.n.02,batter_(food),"a liquid or semiliquid mixture, as of flour, eggs, and milk, used in cooking",2,1,r
+70,battery.n.02,battery,a portable device that produces electricity,19,9,c
+71,beach_ball.n.01,beachball,large and light ball; for play at the seaside,7,3,r
+72,bead.n.01,bead,"a small ball with a hole through the middle used for ornamentation, jewellery, etc.",164,11,c
+73,bean_curd.n.01,bean_curd|tofu,cheeselike food made of curdled soybean milk,151,10,c
+74,beanbag.n.01,beanbag,a bag filled with dried beans or similar items; used in games or to sit on,16,8,c
+75,beanie.n.01,beanie|beany,a small skullcap; formerly worn by schoolboys and college freshmen,298,92,f
+76,bear.n.01,bear,large carnivorous or omnivorous mammals with shaggy coats and claws,223,130,f
+77,bed.n.01,bed,a piece of furniture that provides a place to sleep,435,363,f
+78,bedpan.n.01,bedpan,a shallow vessel used by a bedridden patient for defecation and urination,0,0,r
+79,bedspread.n.01,bedspread|bedcover|bed_covering|counterpane|spread,decorative cover for a bed,19,17,f
+80,beef.n.01,cow,cattle/cow,1663,266,f
+81,beef.n.02,beef_(food)|boeuf_(food),meat from an adult domestic bovine,293,26,f
+82,beeper.n.01,beeper|pager,an device that beeps when the person carrying it is being paged,0,0,r
+83,beer_bottle.n.01,beer_bottle,a bottle that holds beer,215,66,f
+84,beer_can.n.01,beer_can,a can that holds beer,63,12,c
+85,beetle.n.01,beetle,insect with hard wing covers,0,0,r
+86,bell.n.01,bell,a hollow device made of metal that makes a ringing sound when struck,75,39,f
+87,bell_pepper.n.02,bell_pepper|capsicum,large bell-shaped sweet pepper in green or red or yellow or orange or black varieties,799,54,f
+88,belt.n.02,belt,a band to tie or buckle around the body (usually at the waist),676,368,f
+89,belt_buckle.n.01,belt_buckle,the buckle used to fasten a belt,83,53,f
+90,bench.n.01,bench,a long seat for more than one person,807,404,f
+91,beret.n.01,beret,a cap with no brim or bill; made of soft cloth,2,1,c
+92,bib.n.02,bib,a napkin tied under the chin of a child while eating,12,12,c
+93,bible.n.01,Bible,the sacred writings of the Christian religions,1,1,r
+94,bicycle.n.01,bicycle|bike_(bicycle),a wheeled vehicle that has two wheels and is moved by foot pedals,969,387,f
+95,bill.n.09,visor|vizor,a brim that projects to the front to shade the eyes,166,87,f
+96,billboard.n.01,billboard,large outdoor signboard,270,37,f
+97,binder.n.03,binder|ring-binder,holds loose papers or magazines,47,21,c
+98,binoculars.n.01,binoculars|field_glasses|opera_glasses,an optical instrument designed for simultaneous use by both eyes,2,2,c
+99,bird.n.01,bird,animal characterized by feathers and wings,2011,368,f
+100,bird_feeder.n.01,birdfeeder,an outdoor device that supplies food for wild birds,8,4,c
+101,birdbath.n.01,birdbath,an ornamental basin (usually in a garden) for birds to bathe in,3,3,c
+102,birdcage.n.01,birdcage,a cage in which a bird can be kept,34,7,c
+103,birdhouse.n.01,birdhouse,a shelter for birds,17,3,c
+104,birthday_cake.n.01,birthday_cake,decorated cake served at a birthday party,74,49,f
+105,birthday_card.n.01,birthday_card,a card expressing a birthday greeting,0,0,r
+106,black_flag.n.01,pirate_flag,a flag usually bearing a white skull and crossbones on a black background,7,1,r
+107,black_sheep.n.02,black_sheep,sheep with a black coat,22,7,c
+108,blackberry.n.01,blackberry,large sweet black or very dark purple edible aggregate fruit,61,10,c
+109,blackboard.n.01,blackboard|chalkboard,sheet of slate; for writing with chalk,37,25,f
+110,blanket.n.01,blanket,bedding that keeps a person warm in bed,646,379,f
+111,blazer.n.01,blazer|sport_jacket|sport_coat|sports_jacket|sports_coat,lightweight jacket; often striped in the colors of a club or school,50,10,c
+112,blender.n.01,blender|liquidizer|liquidiser,an electrically powered mixer that mix or chop or liquefy foods,57,54,f
+113,blimp.n.02,blimp,a small nonrigid airship used for observation or as a barrage balloon,0,0,r
+114,blinker.n.01,blinker|flasher,a light that flashes on and off; used as a signal or to send messages,238,49,f
+115,blouse.n.01,blouse,a top worn by women,99,51,f
+116,blueberry.n.02,blueberry,sweet edible dark-blue berries of blueberry plants,713,27,f
+117,board.n.09,gameboard,a flat portable surface (usually rectangular) designed for board games,4,3,r
+118,boat.n.01,boat|ship_(boat),a vessel for travel on water,1893,362,f
+119,bob.n.05,bob|bobber|bobfloat,a small float usually made of cork; attached to a fishing line,0,0,r
+120,bobbin.n.01,bobbin|spool|reel,a thing around which thread/tape/film or other flexible materials can be wound,15,10,c
+121,bobby_pin.n.01,bobby_pin|hairgrip,a flat wire hairpin used to hold bobbed hair in place,1,1,c
+122,boiled_egg.n.01,boiled_egg|coddled_egg,egg cooked briefly in the shell in gently boiling water,9,6,c
+123,bolo_tie.n.01,bolo_tie|bolo|bola_tie|bola,a cord fastened around the neck with an ornamental clasp and worn as a necktie,1,1,r
+124,bolt.n.03,deadbolt,the part of a lock that is engaged or withdrawn with a key,8,7,c
+125,bolt.n.06,bolt,a screw that screws into a nut to form a fastener,1953,249,f
+126,bonnet.n.01,bonnet,a hat tied under the chin,6,4,r
+127,book.n.01,book,a written work or composition that has been published,7022,383,f
+128,bookcase.n.01,bookcase,a piece of furniture with shelves for storing books,17,14,c
+129,booklet.n.01,booklet|brochure|leaflet|pamphlet,a small book usually having a paper cover,54,14,c
+130,bookmark.n.01,bookmark|bookmarker,a marker (a piece of paper or ribbon) placed between the pages of a book,1,1,r
+131,boom.n.04,boom_microphone|microphone_boom,a pole carrying an overhead microphone projected over a film or tv set,2,2,r
+132,boot.n.01,boot,footwear that covers the whole foot and lower leg,750,258,f
+133,bottle.n.01,bottle,a glass or plastic vessel used for storing drinks or other liquids,1766,381,f
+134,bottle_opener.n.01,bottle_opener,an opener for removing caps or corks from bottles,3,3,c
+135,bouquet.n.01,bouquet,an arrangement of flowers that is usually given as a present,6,3,c
+136,bow.n.04,bow_(weapon),a weapon for shooting arrows,3,2,r
+137,bow.n.08,bow_(decorative_ribbons),a decorative interlacing of ribbons,186,92,f
+138,bow_tie.n.01,bow-tie|bowtie,a man's tie that ties in a bow,68,42,f
+139,bowl.n.03,bowl,a dish that is round and open at the top for serving foods,940,366,f
+140,bowl.n.08,pipe_bowl,a small round container that is open at the top for holding tobacco,0,0,r
+141,bowler_hat.n.01,bowler_hat|bowler|derby_hat|derby|plug_hat,a felt hat that is round and hard with a narrow brim,22,7,c
+142,bowling_ball.n.01,bowling_ball,a large ball with finger holes used in the sport of bowling,9,2,r
+143,box.n.01,box,a (usually rectangular) container; may have a lid,1389,287,f
+144,boxing_glove.n.01,boxing_glove,large glove coverings the fists of a fighter worn for the sport of boxing,0,0,r
+145,brace.n.06,suspenders,elastic straps that hold trousers up (usually used in the plural),26,15,c
+146,bracelet.n.02,bracelet|bangle,jewelry worn around the wrist for decoration,582,309,f
+147,brass.n.07,brass_plaque,a memorial made of brass,3,1,r
+148,brassiere.n.01,brassiere|bra|bandeau,an undergarment worn by women to support their breasts,22,20,c
+149,bread-bin.n.01,bread-bin|breadbox,a container used to keep bread or cake in,5,5,c
+150,bread.n.01,bread,food made from dough of flour or meal and usually raised with yeast or baking powder and then baked,866,231,f
+151,breechcloth.n.01,breechcloth|breechclout|loincloth,a garment that provides covering for the loins,0,0,r
+152,bridal_gown.n.01,bridal_gown|wedding_gown|wedding_dress,a gown worn by the bride at a wedding,23,23,f
+153,briefcase.n.01,briefcase,a case with a handle; for carrying papers or files or books,14,11,c
+154,broccoli.n.01,broccoli,plant with dense clusters of tight green flower buds,2677,278,f
+155,brooch.n.01,broach,a decorative pin worn by women,1,1,r
+156,broom.n.01,broom,bundle of straws or twigs attached to a long handle; used for cleaning,20,19,c
+157,brownie.n.03,brownie,square or bar of very rich chocolate cake usually with nuts,20,6,c
+158,brussels_sprouts.n.01,brussels_sprouts,the small edible cabbage-like buds growing along a stalk,86,7,c
+159,bubble_gum.n.01,bubble_gum,a kind of chewing gum that can be blown into bubbles,1,1,r
+160,bucket.n.01,bucket|pail,a roughly cylindrical vessel that is open at the top,273,144,f
+161,buggy.n.01,horse_buggy,a small lightweight carriage; drawn by a single horse,18,6,r
+162,bull.n.11,horned_cow,a cow with horns,51,14,c
+163,bulldog.n.01,bulldog,a thickset short-haired dog with a large head and strong undershot lower jaw,0,0,c
+164,bulldozer.n.01,bulldozer|dozer,large powerful tractor; a large blade in front flattens areas of ground,1,1,r
+165,bullet_train.n.01,bullet_train,a high-speed passenger train,25,21,c
+166,bulletin_board.n.02,bulletin_board|notice_board,a board that hangs on a wall; displays announcements,11,10,c
+167,bulletproof_vest.n.01,bulletproof_vest,a vest capable of resisting the impact of a bullet,2,1,r
+168,bullhorn.n.01,bullhorn|megaphone,a portable loudspeaker with built-in microphone and amplifier,2,2,c
+169,bun.n.01,bun|roll,small rounded bread either plain or sweet,300,96,f
+170,bunk_bed.n.01,bunk_bed,beds built one above the other,2,2,c
+171,buoy.n.01,buoy,a float attached by rope to the seabed to mark channels in a harbor or underwater hazards,315,44,f
+172,burrito.n.01,burrito,a flour tortilla folded around a filling,3,2,r
+173,bus.n.01,bus_(vehicle)|autobus|charabanc|double-decker|motorbus|motorcoach,a vehicle carrying many passengers; used for public transport,613,358,f
+174,business_card.n.01,business_card,a card on which are printed the person's name and business affiliation,11,6,c
+175,butter.n.01,butter,an edible emulsion of fat globules made by churning milk or cream; for cooking and table use,78,42,f
+176,butterfly.n.01,butterfly,insect typically having a slender body with knobbed antennae and broad colorful wings,116,13,c
+177,button.n.01,button,a round fastener sewn to shirts and coats etc to fit through buttonholes,1452,329,f
+178,cab.n.03,cab_(taxi)|taxi|taxicab,a car that takes passengers where they want to go in exchange for money,68,33,f
+179,cabana.n.01,cabana,a small tent used as a dressing room beside the sea or a swimming pool,0,0,r
+180,cabin_car.n.01,cabin_car|caboose,a car on a freight train for use of the train crew; usually the last car on the train,5,3,c
+181,cabinet.n.01,cabinet,a piece of furniture resembling a cupboard with doors and shelves and drawers,1617,352,f
+182,cabinet.n.03,locker|storage_locker,a storage compartment for clothes and valuables; usually it has a lock,0,0,r
+183,cake.n.03,cake,"baked goods made from or based on a mixture of flour, sugar, eggs, and fat",617,148,f
+184,calculator.n.02,calculator,a small machine that is used for mathematical calculations,27,22,c
+185,calendar.n.02,calendar,"a list or register of events (appointments/social events/court cases, etc)",49,42,f
+186,calf.n.01,calf,young of domestic cattle,55,15,c
+187,camcorder.n.01,camcorder,a portable television camera and videocassette recorder,12,6,c
+188,camel.n.01,camel,cud-chewing mammal used as a draft or saddle animal in desert regions,3,3,c
+189,camera.n.01,camera,equipment for taking photographs,493,253,f
+190,camera_lens.n.01,camera_lens,a lens that focuses the image in a camera,45,14,c
+191,camper.n.02,camper_(vehicle)|camping_bus|motor_home,a recreational vehicle equipped for camping out while traveling,15,8,c
+192,can.n.01,can|tin_can,airtight sealed metal container for food or drink or paint etc.,343,83,f
+193,can_opener.n.01,can_opener|tin_opener,a device for cutting cans open,4,4,c
+194,candle.n.01,candle|candlestick,stick of wax with a wick in the middle,616,203,f
+195,candlestick.n.01,candle_holder,a holder with sockets for candles,67,31,f
+196,candy_bar.n.01,candy_bar,a candy shaped as a bar,7,2,r
+197,candy_cane.n.01,candy_cane,a hard candy in the shape of a rod (usually with stripes),3,2,c
+198,cane.n.01,walking_cane,a stick that people can lean on to help them walk,20,16,c
+199,canister.n.02,canister|cannister,metal container for storing dry foods such as tea or flour,25,7,c
+200,canoe.n.01,canoe,small and light boat; pointed at both ends; propelled with a paddle,17,12,c
+201,cantaloup.n.02,cantaloup|cantaloupe,the fruit of a cantaloup vine; small to medium-sized melon with yellowish flesh,6,3,c
+202,canteen.n.01,canteen,a flask for carrying water; used by soldiers or travelers,0,0,r
+203,cap.n.01,cap_(headwear),a tight-fitting headwear,8,5,f
+204,cap.n.02,bottle_cap|cap_(container_lid),a top (as for a bottle),980,201,f
+205,cape.n.02,cape,a sleeveless garment like a cloak but shorter,11,7,c
+206,cappuccino.n.01,cappuccino|coffee_cappuccino,equal parts of espresso and steamed milk,21,17,c
+207,car.n.01,car_(automobile)|auto_(automobile)|automobile,a motor vehicle with four wheels,2349,364,f
+208,car.n.02,railcar_(part_of_a_train)|railway_car_(part_of_a_train)|railroad_car_(part_of_a_train),a wheeled vehicle adapted to the rails of railroad (mark each individual railcar separately),190,33,f
+209,car.n.04,elevator_car,where passengers ride up and down,1,1,r
+210,car_battery.n.01,car_battery|automobile_battery,a battery in a motor vehicle,0,0,r
+211,card.n.02,identity_card,a card certifying the identity of the bearer,9,5,c
+212,card.n.03,card,a rectangular piece of paper used to send messages (e.g. greetings or pictures),37,11,c
+213,cardigan.n.01,cardigan,knitted jacket that is fastened up the front with buttons or a zipper,1,1,c
+214,cargo_ship.n.01,cargo_ship|cargo_vessel,a ship designed to carry cargo,2,2,r
+215,carnation.n.01,carnation,plant with pink to purple-red spice-scented usually double flowers,0,0,r
+216,carriage.n.02,horse_carriage,a vehicle with wheels drawn by one or more horses,8,8,c
+217,carrot.n.01,carrot,deep orange edible root of the cultivated carrot plant,3762,247,f
+218,carryall.n.01,tote_bag,a capacious bag or basket,66,28,f
+219,cart.n.01,cart,a heavy open wagon usually having two wheels and drawn by an animal,29,10,c
+220,carton.n.02,carton,a container made of cardboard for holding food or drink,36,18,c
+221,cash_register.n.01,cash_register|register_(for_cash_transactions),a cashbox with an adding machine to register transactions,7,6,c
+222,casserole.n.01,casserole,food cooked and served in a casserole,10,4,r
+223,cassette.n.01,cassette,a container that holds a magnetic tape used for recording or playing sound or video,3,1,r
+224,cast.n.05,cast|plaster_cast|plaster_bandage,bandage consisting of a firm covering that immobilizes broken bones while they heal,4,2,c
+225,cat.n.01,cat,a domestic house cat,482,376,f
+226,cauliflower.n.02,cauliflower,edible compact head of white undeveloped flowers,97,20,f
+227,cayenne.n.02,cayenne_(spice)|cayenne_pepper_(spice)|red_pepper_(spice),ground pods and seeds of pungent red peppers of the genus Capsicum,22,3,c
+228,cd_player.n.01,CD_player,electronic equipment for playing compact discs (CDs),9,5,c
+229,celery.n.01,celery,widely cultivated herb with aromatic leaf stalks that are eaten raw or cooked,277,21,f
+230,cellular_telephone.n.01,cellular_telephone|cellular_phone|cellphone|mobile_phone|smart_phone,a hand-held mobile telephone,575,385,f
+231,chain_mail.n.01,chain_mail|ring_mail|chain_armor|chain_armour|ring_armor|ring_armour,(Middle Ages) flexible armor made of interlinked metal rings,0,0,r
+232,chair.n.01,chair,"a seat for one person, with a support for the back",2368,392,f
+233,chaise_longue.n.01,chaise_longue|chaise|daybed,a long chair; for reclining,0,0,r
+234,chalice.n.01,chalice,a bowl-shaped drinking vessel; especially the Eucharistic cup,0,0,r
+235,chandelier.n.01,chandelier,branched lighting fixture; often ornate; hangs from the ceiling,66,48,f
+236,chap.n.04,chap,leather leggings without a seat; worn over trousers by cowboys to protect their legs,2,2,r
+237,checkbook.n.01,checkbook|chequebook,a book issued to holders of checking accounts,0,0,r
+238,checkerboard.n.01,checkerboard,a board having 64 squares of two alternating colors,1,1,r
+239,cherry.n.03,cherry,a red fruit with a single hard stone,206,18,c
+240,chessboard.n.01,chessboard,a checkerboard used to play chess,2,1,r
+241,chicken.n.02,chicken_(animal),a domestic fowl bred for flesh or eggs,16,6,c
+242,chickpea.n.01,chickpea|garbanzo,the seed of the chickpea plant; usually dried,30,2,c
+243,chili.n.02,chili_(vegetable)|chili_pepper_(vegetable)|chilli_(vegetable)|chilly_(vegetable)|chile_(vegetable),very hot and finely tapering pepper of special pungency,8,3,c
+244,chime.n.01,chime|gong,an instrument consisting of a set of bells that are struck with a hammer,0,0,r
+245,chinaware.n.01,chinaware,dishware made of high quality porcelain,0,0,r
+246,chip.n.04,crisp_(potato_chip)|potato_chip,a thin crisp slice of potato fried in deep fat,101,8,c
+247,chip.n.06,poker_chip,a small disk-shaped counter used to represent money when gambling,0,0,r
+248,chocolate_bar.n.01,chocolate_bar,a bar of chocolate candy,17,3,c
+249,chocolate_cake.n.01,chocolate_cake,cake containing chocolate,6,5,c
+250,chocolate_milk.n.01,chocolate_milk,milk flavored with chocolate syrup,0,0,r
+251,chocolate_mousse.n.01,chocolate_mousse,dessert mousse made with chocolate,1,1,r
+252,choker.n.03,choker|collar|neckband,"shirt collar, animal collar, or tight-fitting necklace",241,161,f
+253,chopping_board.n.01,chopping_board|cutting_board|chopping_block,a wooden board where meats or vegetables can be cut,150,122,f
+254,chopstick.n.01,chopstick,one of a pair of slender sticks used as oriental tableware to eat food with,90,32,f
+255,christmas_tree.n.05,Christmas_tree,an ornamented evergreen used as a Christmas decoration,72,53,f
+256,chute.n.02,slide,sloping channel through which things can descend,30,19,c
+257,cider.n.01,cider|cyder,a beverage made from juice pressed from apples,0,0,r
+258,cigar_box.n.01,cigar_box,a box for holding cigars,0,0,r
+259,cigarette.n.01,cigarette,finely ground tobacco wrapped in paper; for smoking,51,38,f
+260,cigarette_case.n.01,cigarette_case|cigarette_pack,a small flat case for holding cigarettes,6,4,c
+261,cistern.n.02,cistern|water_tank,a tank that holds the water used to flush a toilet,168,131,f
+262,clarinet.n.01,clarinet,a single-reed instrument with a straight tube,0,0,r
+263,clasp.n.01,clasp,a fastener (as a buckle or hook) that is used to hold two things together,31,9,c
+264,cleansing_agent.n.01,cleansing_agent|cleanser|cleaner,a preparation used in cleaning something,41,11,c
+265,cleat.n.02,cleat_(for_securing_rope),a fastener (usually with two projecting horns) around which a rope can be secured,0,0,r
+266,clementine.n.01,clementine,a variety of mandarin orange,1,1,r
+267,clip.n.03,clip,any of various small fasteners used to hold loose articles together,25,14,c
+268,clipboard.n.01,clipboard,a small writing board with a clip at the top for holding papers,15,8,c
+269,clipper.n.03,clippers_(for_plants),shears for cutting grass or shrubbery (often used in the plural),0,0,r
+270,cloak.n.02,cloak,a loose outer garment,0,0,r
+271,clock.n.01,clock|timepiece|timekeeper,a timepiece that shows the time of day,622,392,f
+272,clock_tower.n.01,clock_tower,a tower with a large clock visible high up on an outside face,204,197,f
+273,clothes_hamper.n.01,clothes_hamper|laundry_basket|clothes_basket,a hamper that holds dirty clothes to be washed or wet clothes to be dried,8,7,c
+274,clothespin.n.01,clothespin|clothes_peg,wood or plastic fastener; for holding clothes on a clothesline,35,4,c
+275,clutch_bag.n.01,clutch_bag,a woman's strapless purse that is carried in the hand,0,0,r
+276,coaster.n.03,coaster,a covering (plate or mat) that protects the surface of a table,87,43,f
+277,coat.n.01,coat,an outer garment that has sleeves and covers the body from shoulder down,702,133,f
+278,coat_hanger.n.01,coat_hanger|clothes_hanger|dress_hanger,a hanger that is shaped like a person's shoulders,117,18,c
+279,coatrack.n.01,coatrack|hatrack,a rack with hooks for temporarily holding coats and hats,2,2,c
+280,cock.n.04,cock|rooster,adult male chicken,15,8,c
+281,cockroach.n.01,cockroach,any of numerous chiefly nocturnal insects; some are domestic pests,0,0,r
+282,cocoa.n.01,cocoa_(beverage)|hot_chocolate_(beverage)|drinking_chocolate,a beverage made from cocoa powder and milk and sugar; usually drunk hot,2,2,r
+283,coconut.n.02,coconut|cocoanut,large hard-shelled brown oval nut with a fibrous husk,208,5,c
+284,coffee_maker.n.01,coffee_maker|coffee_machine,a kitchen appliance for brewing coffee automatically,49,46,f
+285,coffee_table.n.01,coffee_table|cocktail_table,low table where magazines can be placed and coffee or cocktails are served,185,142,f
+286,coffeepot.n.01,coffeepot,tall pot in which coffee is brewed,9,6,c
+287,coil.n.05,coil,tubing that is wound in a spiral,0,0,r
+288,coin.n.01,coin,a flat metal piece (usually a disc) used as money,97,13,c
+289,colander.n.01,colander|cullender,bowl-shaped strainer; used to wash or drain foods,4,2,c
+290,coleslaw.n.01,coleslaw|slaw,basically shredded cabbage,10,5,c
+291,coloring_material.n.01,coloring_material|colouring_material,any material used for its color,9,1,r
+292,combination_lock.n.01,combination_lock,lock that can be opened only by turning dials in a special sequence,0,0,r
+293,comforter.n.04,pacifier|teething_ring,device used for an infant to suck or bite on,15,13,c
+294,comic_book.n.01,comic_book,a magazine devoted to comic strips,8,1,r
+295,compass.n.01,compass,navigational instrument for finding directions,1,1,r
+296,computer_keyboard.n.01,computer_keyboard|keyboard_(computer),a keyboard that is a data input device for computers,562,379,f
+297,condiment.n.01,condiment,a preparation (a sauce or relish or spice) to enhance flavor or enjoyment,496,108,f
+298,cone.n.01,cone|traffic_cone,a cone-shaped object used to direct traffic,707,180,f
+299,control.n.09,control|controller,a mechanism that controls the operation of a machine,440,157,f
+300,convertible.n.01,convertible_(automobile),a car that has top that can be folded or removed,0,0,r
+301,convertible.n.03,sofa_bed,a sofa that can be converted into a bed,0,0,r
+302,cooker.n.01,cooker,a utensil for cooking,0,0,r
+303,cookie.n.01,cookie|cooky|biscuit_(cookie),any of various small flat sweet cakes (`biscuit' is the British term),255,26,f
+304,cooking_utensil.n.01,cooking_utensil,a kitchen utensil made of material that does not melt easily; used for cooking,0,0,r
+305,cooler.n.01,cooler_(for_food)|ice_chest,an insulated box for storing food often with ice,113,63,f
+306,cork.n.04,cork_(bottle_plug)|bottle_cork,the plug in the mouth of a bottle (especially a wine bottle),71,20,f
+307,corkboard.n.01,corkboard,a sheet consisting of cork granules,1,1,r
+308,corkscrew.n.01,corkscrew|bottle_screw,a bottle opener that pulls corks,6,6,c
+309,corn.n.03,edible_corn|corn|maize,ears or kernels of corn that can be prepared and served for human food (only mark individual ears or kernels),527,34,f
+310,cornbread.n.01,cornbread,bread made primarily of cornmeal,6,2,r
+311,cornet.n.01,cornet|horn|trumpet,a brass musical instrument with a narrow tube and a flared bell and many valves,28,10,c
+312,cornice.n.01,cornice|valance|valance_board|pelmet,a decorative framework to conceal curtain fixtures at the top of a window casing,19,15,c
+313,cornmeal.n.01,cornmeal,coarsely ground corn,0,0,r
+314,corset.n.01,corset|girdle,a woman's close-fitting foundation garment,2,2,c
+315,costume.n.04,costume,the attire characteristic of a country or a time or a social class,10,7,c
+316,cougar.n.01,cougar|puma|catamount|mountain_lion|panther,large American feline resembling a lion,1,1,r
+317,coverall.n.01,coverall,a loose-fitting protective garment that is worn over other clothing,1,1,r
+318,cowbell.n.01,cowbell,a bell hung around the neck of cow so that the cow can be easily located,6,4,c
+319,cowboy_hat.n.01,cowboy_hat|ten-gallon_hat,a hat with a wide brim and a soft crown; worn by American ranch hands,102,41,f
+320,crab.n.01,crab_(animal),decapod having eyes on short stalks and a broad flattened shell and pincers,7,4,c
+321,crab.n.05,crabmeat,the edible flesh of any of various crabs,0,0,r
+322,cracker.n.01,cracker,a thin crisp wafer,112,14,c
+323,crape.n.01,crape|crepe|French_pancake,small very thin pancake,4,2,r
+324,crate.n.01,crate,a rugged box (usually made of wood); used for shipping,403,50,f
+325,crayon.n.01,crayon|wax_crayon,writing or drawing implement made of a colored stick of composition wax,36,4,c
+326,cream_pitcher.n.01,cream_pitcher,a small pitcher for serving cream,10,2,r
+327,crescent_roll.n.01,crescent_roll|croissant,very rich flaky crescent-shaped roll,33,8,c
+328,crib.n.01,crib|cot,baby bed with high sides made of slats,6,6,c
+329,crock.n.03,crock_pot|earthenware_jar,an earthen jar (made of baked clay) or a modern electric crockpot,7,6,c
+330,crossbar.n.01,crossbar,a horizontal bar that goes across something,1036,155,f
+331,crouton.n.01,crouton,a small piece of toasted or fried bread; served in soup or salads,32,3,r
+332,crow.n.01,crow,black birds having a raucous call,6,4,c
+333,crowbar.n.01,crowbar|wrecking_bar|pry_bar,a heavy iron lever with one end forged into a wedge,0,0,r
+334,crown.n.04,crown,an ornamental jeweled headdress signifying sovereignty,34,16,c
+335,crucifix.n.01,crucifix,representation of the cross on which Jesus died,8,7,c
+336,cruise_ship.n.01,cruise_ship|cruise_liner,a passenger ship used commercially for pleasure cruises,7,6,c
+337,cruiser.n.01,police_cruiser|patrol_car|police_car|squad_car,a car in which policemen cruise the streets,13,10,c
+338,crumb.n.03,crumb,small piece of e.g. bread or cake,608,40,f
+339,crutch.n.01,crutch,a wooden or metal staff that fits under the armpit and reaches to the ground,3,2,c
+340,cub.n.03,cub_(animal),the young of certain carnivorous mammals such as the bear or wolf or lion,13,9,c
+341,cube.n.05,cube|square_block,a block in the (approximate) shape of a cube,7,1,c
+342,cucumber.n.02,cucumber|cuke,cylindrical green fruit with thin green rind and white flesh eaten as a vegetable,453,54,f
+343,cufflink.n.01,cufflink,jewelry consisting of linked buttons used to fasten the cuffs of a shirt,5,4,c
+344,cup.n.01,cup,a small open container usually used for drinking; usually has a handle,834,284,f
+345,cup.n.08,trophy_cup,a metal award or cup-shaped vessel with handles that is awarded as a trophy to a competition winner,24,6,c
+346,cupboard.n.01,cupboard|closet,a small room (or recess) or cabinet used for storage space,329,48,f
+347,cupcake.n.01,cupcake,small cake baked in a muffin tin,609,43,f
+348,curler.n.01,hair_curler|hair_roller|hair_crimper,a cylindrical tube around which the hair is wound to curl it,11,2,r
+349,curling_iron.n.01,curling_iron,a cylindrical home appliance that heats hair that has been curled around it,1,1,r
+350,curtain.n.01,curtain|drapery,hanging cloth used as a blind (especially for a window),976,364,f
+351,cushion.n.03,cushion,a soft bag filled with air or padding such as feathers or foam rubber,1303,212,f
+352,cylinder.n.04,cylinder,a cylindrical container,2,1,r
+353,cymbal.n.01,cymbal,a percussion instrument consisting of a concave brass disk,0,0,r
+354,dagger.n.01,dagger,a short knife with a pointed blade used for piercing or stabbing,0,0,r
+355,dalmatian.n.02,dalmatian,a large breed having a smooth white coat with black or brown spots,0,0,r
+356,dartboard.n.01,dartboard,a circular board of wood or cork used as the target in the game of darts,1,1,c
+357,date.n.08,date_(fruit),sweet edible fruit of the date palm with a single long woody seed,16,1,r
+358,deck_chair.n.01,deck_chair|beach_chair,a folding chair for use outdoors; a wooden frame supports a length of canvas,289,40,f
+359,deer.n.01,deer|cervid,distinguished from Bovidae by the male's having solid deciduous antlers,33,9,c
+360,dental_floss.n.01,dental_floss|floss,a soft thread for cleaning the spaces between the teeth,1,1,c
+361,desk.n.01,desk,a piece of furniture with a writing surface and usually drawers or other compartments,360,248,f
+362,detergent.n.01,detergent,a surface-active chemical widely used in industry and laundering,3,3,r
+363,diaper.n.01,diaper,garment consisting of a folded cloth drawn up between the legs and fastened at the waist,11,11,c
+364,diary.n.01,diary|journal,yearly planner book,1,1,r
+365,die.n.01,die|dice,a small cube with 1 to 6 spots on the six faces; used in gambling,16,5,r
+366,dinghy.n.01,dinghy|dory|rowboat,a small boat of shallow draft with seats and oars with which it is propelled,13,3,r
+367,dining_table.n.01,dining_table,a table at which meals are served,107,70,f
+368,dinner_jacket.n.01,tux|tuxedo,semiformal evening dress for men,1,1,r
+369,dish.n.01,dish,a piece of dishware normally used as a container for holding or serving food,77,21,f
+370,dish.n.05,dish_antenna,directional antenna consisting of a parabolic reflector,34,11,c
+371,dishrag.n.01,dishrag|dishcloth,a cloth for washing dishes or cleaning in general,0,0,c
+372,dishtowel.n.01,dishtowel|tea_towel,a towel for drying dishes,32,25,f
+373,dishwasher.n.01,dishwasher|dishwashing_machine,a machine for washing dishes,74,73,f
+374,dishwasher_detergent.n.01,dishwasher_detergent|dishwashing_detergent|dishwashing_liquid|dishsoap,dishsoap or dish detergent designed for use in dishwashers,0,0,r
+375,dispenser.n.01,dispenser,a container so designed that the contents can be used in prescribed amounts,96,44,f
+376,diving_board.n.01,diving_board,a springboard from which swimmers can dive,0,0,r
+377,dixie_cup.n.01,Dixie_cup|paper_cup,a disposable cup made of paper; for holding drinks,51,19,f
+378,dog.n.01,dog,a common domesticated dog,531,379,f
+379,dog_collar.n.01,dog_collar,a collar for a dog,156,111,f
+380,doll.n.01,doll,a toy replica of a HUMAN (NOT AN ANIMAL),67,36,f
+381,dollar.n.02,dollar|dollar_bill|one_dollar_bill,a piece of paper money worth one dollar,1,1,r
+382,dollhouse.n.01,dollhouse|doll's_house,a house so small that it is likened to a child's plaything,0,0,r
+383,dolphin.n.02,dolphin,any of various small toothed whales with a beaklike snout; larger than porpoises,1,1,c
+384,domestic_ass.n.01,domestic_ass|donkey,domestic beast of burden descended from the African wild ass; patient but stubborn,25,7,c
+385,doorknob.n.01,doorknob|doorhandle,a knob used to open a door (often called `doorhandle' in Great Britain),770,345,f
+386,doormat.n.02,doormat|welcome_mat,a mat placed outside an exterior door for wiping the shoes before entering,28,22,c
+387,doughnut.n.02,doughnut|donut,a small ring-shaped friedcake,2562,167,f
+388,dove.n.01,dove,any of numerous small pigeons,0,0,r
+389,dragonfly.n.01,dragonfly,slender-bodied non-stinging insect having iridescent wings that are outspread at rest,23,2,r
+390,drawer.n.01,drawer,a boxlike container in a piece of furniture; made so as to slide in and out,1430,363,f
+391,drawers.n.01,underdrawers|boxers|boxershorts,underpants worn by men,5,4,c
+392,dress.n.01,dress|frock,a one-piece garment for a woman; has skirt and bodice,619,284,f
+393,dress_hat.n.01,dress_hat|high_hat|opera_hat|silk_hat|top_hat,a man's hat with a tall crown; usually covered with silk or with beaver fur,19,10,c
+394,dress_suit.n.01,dress_suit,formalwear consisting of full evening dress for men,23,13,f
+395,dresser.n.05,dresser,a cabinet with shelves,39,27,f
+396,drill.n.01,drill,a tool with a sharp rotating point for making holes in hard materials,2,2,c
+397,drone.n.04,drone,an aircraft without a pilot that is operated by remote control,0,0,r
+398,dropper.n.01,dropper|eye_dropper,pipet consisting of a small tube with a vacuum bulb at one end for drawing liquid in and releasing it a drop at a time,2,2,r
+399,drum.n.01,drum_(musical_instrument),a musical percussion instrument; usually consists of a hollow cylinder with a membrane stretched across each end,13,4,c
+400,drumstick.n.02,drumstick,a stick used for playing a drum,3,2,r
+401,duck.n.01,duck,small web-footed broad-billed swimming bird,134,30,f
+402,duckling.n.02,duckling,young duck,0,0,c
+403,duct_tape.n.01,duct_tape,a wide silvery adhesive tape,6,3,c
+404,duffel_bag.n.01,duffel_bag|duffle_bag|duffel|duffle,a large cylindrical bag of heavy cloth (does not include suitcases),94,41,f
+405,dumbbell.n.01,dumbbell,an exercising weight with two ball-like ends connected by a short handle,4,2,r
+406,dumpster.n.01,dumpster,a container designed to receive and transport and dump waste,22,15,c
+407,dustpan.n.02,dustpan,a short-handled receptacle into which dust can be swept,3,3,r
+408,eagle.n.01,eagle,large birds of prey noted for their broad wings and strong soaring flight,6,6,c
+409,earphone.n.01,earphone|earpiece|headphone,device for listening to audio that is held over or inserted into the ear,143,107,f
+410,earplug.n.01,earplug,a soft plug that is inserted into the ear canal to block sound,4,2,r
+411,earring.n.01,earring,jewelry to ornament the ear,544,363,f
+412,easel.n.01,easel,an upright tripod for displaying something (usually an artist's canvas),10,5,c
+413,eclair.n.01,eclair,oblong cream puff,1,1,r
+414,eel.n.01,eel,an elongate fish with fatty flesh,0,0,r
+415,egg.n.02,egg|eggs,oval reproductive body of a fowl (especially a hen) used as food,189,43,f
+416,egg_roll.n.01,egg_roll|spring_roll,minced vegetables and meat wrapped in a pancake and fried,28,5,r
+417,egg_yolk.n.01,egg_yolk|yolk_(egg),the yellow spherical part of an egg,22,10,c
+418,eggbeater.n.02,eggbeater|eggwhisk,a mixer for beating eggs or whipping cream,18,13,c
+419,eggplant.n.01,eggplant|aubergine,egg-shaped vegetable having a shiny skin typically dark purple,7,4,c
+420,electric_chair.n.01,electric_chair,a chair-shaped instrument of execution by electrocution,0,0,r
+421,electric_refrigerator.n.01,refrigerator,a refrigerator in which the coolant is pumped around by an electric motor,406,311,f
+422,elephant.n.01,elephant,a common elephant,1013,364,f
+423,elk.n.01,elk|moose,large northern deer with enormous flattened antlers in the male,23,4,c
+424,envelope.n.01,envelope,"a flat (usually rectangular) container for a letter, thin package, etc.",56,19,c
+425,eraser.n.01,eraser,an implement used to erase something,10,8,c
+426,escargot.n.01,escargot,edible snail usually served in the shell with a sauce of melted butter and garlic,0,0,r
+427,eyepatch.n.01,eyepatch,a protective cloth covering for an injured eye,1,1,r
+428,falcon.n.01,falcon,birds of prey having long pointed powerful wings adapted for swift flight,1,1,r
+429,fan.n.01,fan,a device for creating a current of air by movement of a surface or surfaces,156,137,f
+430,faucet.n.01,faucet|spigot|tap,a regulator for controlling the flow of a liquid from a reservoir,594,374,f
+431,fedora.n.01,fedora,a hat made of felt with a creased crown,0,0,r
+432,ferret.n.02,ferret,domesticated albino variety of the European polecat bred for hunting rats and rabbits,1,1,r
+433,ferris_wheel.n.01,Ferris_wheel,a large wheel with suspended seats that remain upright as the wheel rotates,9,9,c
+434,ferry.n.01,ferry|ferryboat,a boat that transports people or vehicles across a body of water and operates on a regular schedule,13,3,c
+435,fig.n.04,fig_(fruit),fleshy sweet pear-shaped yellowish or purple fruit eaten fresh or preserved or dried,12,2,r
+436,fighter.n.02,fighter_jet|fighter_aircraft|attack_aircraft,a high-speed military or naval airplane designed to destroy enemy targets,41,15,c
+437,figurine.n.01,figurine,a small carved or molded figure,168,30,f
+438,file.n.03,file_cabinet|filing_cabinet,office furniture consisting of a container for keeping papers in order,14,9,c
+439,file.n.04,file_(tool),a steel hand tool with small sharp teeth on some or all of its surfaces; used for smoothing wood or metal,0,0,r
+440,fire_alarm.n.02,fire_alarm|smoke_alarm,an alarm that is tripped off by fire or smoke,40,36,f
+441,fire_engine.n.01,fire_engine|fire_truck,large trucks that carry firefighters and equipment to the site of a fire,42,25,f
+442,fire_extinguisher.n.01,fire_extinguisher|extinguisher,a manually operated device for extinguishing small fires,46,31,f
+443,fire_hose.n.01,fire_hose,a large hose that carries water from a fire hydrant to the site of the fire,16,10,c
+444,fireplace.n.01,fireplace,an open recess in a wall at the base of a chimney where a fire can be built,103,102,f
+445,fireplug.n.01,fireplug|fire_hydrant|hydrant,an upright hydrant for drawing water to use in fighting a fire,279,259,f
+446,first-aid_kit.n.01,first-aid_kit,kit consisting of a set of bandages and medicines for giving first aid,0,0,r
+447,fish.n.01,fish,any of various mostly cold-blooded aquatic vertebrates usually having scales and breathing through gills,92,23,f
+448,fish.n.02,fish_(food),the flesh of fish used as food,7,3,c
+449,fishbowl.n.02,fishbowl|goldfish_bowl,a transparent bowl in which small fish are kept,1,1,r
+450,fishing_rod.n.01,fishing_rod|fishing_pole,a rod that is used in fishing to extend the fishing line,17,7,c
+451,flag.n.01,flag,emblem usually consisting of a rectangular piece of cloth of distinctive design (do not include pole),1248,390,f
+452,flagpole.n.02,flagpole|flagstaff,a tall staff or pole on which a flag is raised,189,70,f
+453,flamingo.n.01,flamingo,large pink web-footed bird with down-bent bill,202,4,c
+454,flannel.n.01,flannel,a soft light woolen fabric; used for clothing,3,2,c
+455,flap.n.01,flap,"any broad thin covering attached at one edge, such as a mud flap next to a wheel or a flap on an airplane wing",15,6,c
+456,flash.n.10,flash|flashbulb,a lamp for providing momentary light to take a photograph,2,2,r
+457,flashlight.n.01,flashlight|torch,a small portable battery-powered electric lamp,7,6,c
+458,fleece.n.03,fleece,a soft bulky fabric with deep pile; used chiefly for clothing,0,0,r
+459,flip-flop.n.02,flip-flop_(sandal),a backless sandal held to the foot by a thong between two toes,139,50,f
+460,flipper.n.01,flipper_(footwear)|fin_(footwear),a shoe to aid a person in swimming,2,2,c
+461,flower_arrangement.n.01,flower_arrangement|floral_arrangement,a decorative arrangement of flowers,908,377,f
+462,flute.n.02,flute_glass|champagne_flute,a tall narrow wineglass,11,6,c
+463,foal.n.01,foal,a young horse,4,4,c
+464,folding_chair.n.01,folding_chair,a chair that can be folded flat for storage,28,12,c
+465,food_processor.n.01,food_processor,"a kitchen appliance for shredding, blending, chopping, or slicing food",4,4,c
+466,football.n.02,football_(American),the inflated oblong ball used in playing American football,7,6,c
+467,football_helmet.n.01,football_helmet,a padded helmet with a face mask to protect the head of football players,0,0,r
+468,footstool.n.01,footstool|footrest,a low seat or a stool to rest the feet of a seated person,8,5,c
+469,fork.n.01,fork,cutlery used for serving and eating food,652,359,f
+470,forklift.n.01,forklift,an industrial vehicle with a power operated fork in front that can be inserted under loads to lift and move them,4,4,c
+471,freight_car.n.01,freight_car,a railway car that carries freight,71,5,c
+472,french_toast.n.01,French_toast,bread slice dipped in egg and milk and fried,7,2,c
+473,freshener.n.01,freshener|air_freshener,anything that freshens air by removing or covering odor,3,3,c
+474,frisbee.n.01,frisbee,"a light, plastic disk propelled with a flip of the wrist for recreation or competition",453,334,f
+475,frog.n.01,frog|toad|toad_frog,a tailless stout-bodied amphibians with long hind limbs for leaping,56,7,c
+476,fruit_juice.n.01,fruit_juice,drink produced by squeezing or crushing fruit,14,1,c
+477,frying_pan.n.01,frying_pan|frypan|skillet,a pan used for frying foods,37,19,f
+478,fudge.n.01,fudge,soft creamy candy,0,0,r
+479,funnel.n.02,funnel,a cone-shaped utensil used to channel a substance into a container with a small mouth,2,2,r
+480,futon.n.01,futon,a pad that is used for sleeping on the floor or on a raised frame,5,4,r
+481,gag.n.02,gag|muzzle,restraint put into a person's mouth to prevent speaking or shouting,0,0,r
+482,garbage.n.03,garbage,a receptacle where waste can be discarded,30,4,r
+483,garbage_truck.n.01,garbage_truck,a truck for collecting domestic refuse,6,3,c
+484,garden_hose.n.01,garden_hose,a hose used for watering a lawn or garden,8,8,c
+485,gargle.n.01,gargle|mouthwash,a medicated solution used for gargling and rinsing the mouth,5,3,c
+486,gargoyle.n.02,gargoyle,an ornament consisting of a grotesquely carved figure of a person or animal,12,2,r
+487,garlic.n.02,garlic|ail,aromatic bulb used as seasoning,213,17,c
+488,gasmask.n.01,gasmask|respirator|gas_helmet,a protective face mask with a filter,1,1,r
+489,gazelle.n.01,gazelle,small swift graceful antelope of Africa and Asia having lustrous eyes,20,6,c
+490,gelatin.n.02,gelatin|jelly,an edible jelly made with gelatin and used as a dessert or salad base or a coating for foods,8,4,c
+491,gem.n.02,gemstone,a crystalline rock that can be cut and polished for jewelry,0,0,r
+492,generator.n.02,generator,engine that converts mechanical energy into electrical energy by electromagnetic induction,0,0,r
+493,giant_panda.n.01,giant_panda|panda|panda_bear,large black-and-white herbivorous mammal of bamboo forests of China and Tibet,12,12,c
+494,gift_wrap.n.01,gift_wrap,attractive wrapping paper suitable for wrapping gifts,61,11,c
+495,ginger.n.03,ginger|gingerroot,the root of the common ginger plant; used fresh as a seasoning,13,4,c
+496,giraffe.n.01,giraffe,tall animal having a spotted coat and small horns and very long neck and legs,756,358,f
+497,girdle.n.02,cincture|sash|waistband|waistcloth,a band of material around the waist that strengthens a skirt or trousers,3,3,c
+498,glass.n.02,glass_(drink_container)|drinking_glass,a container for holding liquids while drinking,1205,370,f
+499,globe.n.03,globe,a sphere on which a map (especially of the earth) is represented,16,13,c
+500,glove.n.02,glove,handwear covering the hand,1131,381,f
+501,goat.n.01,goat,a common goat,132,20,c
+502,goggles.n.01,goggles,tight-fitting spectacles worn to protect the eyes,619,327,f
+503,goldfish.n.01,goldfish,small golden or orange-red freshwater fishes used as pond or aquarium pets,0,0,r
+504,golf_club.n.02,golf_club|golf-club,golf equipment used by a golfer to hit a golf ball,9,2,c
+505,golfcart.n.01,golfcart,a small motor vehicle in which golfers can ride between shots,7,4,c
+506,gondola.n.02,gondola_(boat),long narrow flat-bottomed boat propelled by sculling; traditionally used on canals of Venice,1,1,r
+507,goose.n.01,goose,"loud, web-footed long-necked aquatic birds usually larger than ducks",45,4,c
+508,gorilla.n.01,gorilla,largest ape,0,0,r
+509,gourd.n.02,gourd,any of numerous inedible fruits with hard rinds,16,1,r
+510,grape.n.01,grape,any of various juicy fruit with green or purple skins; grow in clusters,1745,45,f
+511,grater.n.01,grater,utensil with sharp perforations for shredding foods (as vegetables or cheese),10,9,c
+512,gravestone.n.01,gravestone|headstone|tombstone,a stone that is used to mark a grave,47,7,c
+513,gravy_boat.n.01,gravy_boat|gravy_holder,a dish (often boat-shaped) for serving gravy or sauce,3,2,r
+514,green_bean.n.02,green_bean,a common bean plant cultivated for its slender green edible pods,620,28,f
+515,green_onion.n.01,green_onion|spring_onion|scallion,a young onion before the bulb has enlarged,359,18,f
+516,griddle.n.01,griddle,cooking utensil consisting of a flat heated surface on which food is cooked,1,1,r
+517,grill.n.02,grill|grille|grillwork|radiator_grille,a framework of metal bars used as a partition or a grate,90,53,f
+518,grits.n.01,grits|hominy_grits,coarsely ground corn boiled as a breakfast dish,0,0,r
+519,grizzly.n.01,grizzly|grizzly_bear,powerful brownish-yellow bear of the uplands of western North America,11,6,c
+520,grocery_bag.n.01,grocery_bag,a sack for holding customer's groceries,4,3,c
+521,guitar.n.01,guitar,a stringed instrument usually having six strings; played by strumming or plucking,52,35,f
+522,gull.n.02,gull|seagull,mostly white aquatic bird having long pointed wings and short legs,170,18,c
+523,gun.n.01,gun,a weapon that discharges a bullet at high velocity from a metal tube,4,3,c
+524,hairbrush.n.01,hairbrush,a brush used to groom a person's hair,28,21,f
+525,hairnet.n.01,hairnet,a small net that someone wears over their hair to keep it in place,6,3,c
+526,hairpin.n.01,hairpin,a double pronged pin used to hold women's hair in place,7,5,c
+527,halter.n.03,halter_top,a woman's top that fastens behind the back and neck leaving the back and arms uncovered,0,0,r
+528,ham.n.01,ham|jambon|gammon,meat cut from the thigh of a hog (usually smoked),357,46,f
+529,hamburger.n.01,hamburger|beefburger|burger,a sandwich consisting of a patty of minced beef served on a bun,8,5,c
+530,hammer.n.02,hammer,a hand tool with a heavy head and a handle; used to deliver an impulsive force by striking,13,7,c
+531,hammock.n.02,hammock,a hanging bed of canvas or rope netting (usually suspended between two trees),8,6,c
+532,hamper.n.02,hamper,a basket usually with a cover,1,1,r
+533,hamster.n.01,hamster,short-tailed burrowing rodent with large cheek pouches,0,0,c
+534,hand_blower.n.01,hair_dryer,a hand-held electric blower that can blow warm air onto the hair,32,27,f
+535,hand_glass.n.01,hand_glass|hand_mirror,a mirror intended to be held in the hand,2,2,r
+536,hand_towel.n.01,hand_towel|face_towel,a small towel used to dry the hands or face,87,40,f
+537,handcart.n.01,handcart|pushcart|hand_truck,wheeled vehicle that can be pushed by a person,31,15,c
+538,handcuff.n.01,handcuff,shackle that consists of a metal loop that can be locked around the wrist,2,2,r
+539,handkerchief.n.01,handkerchief,a square piece of cloth used for wiping the eyes or nose or as a costume accessory,8,7,c
+540,handle.n.01,handle|grip|handgrip,the appendage to an object that is designed to be held in order to use or move it,1765,394,f
+541,handsaw.n.01,handsaw|carpenter's_saw,a saw used with one hand for cutting wood,4,4,r
+542,hardback.n.01,hardback_book|hardcover_book,a book with cardboard or cloth or leather covers,0,0,r
+543,harmonium.n.01,harmonium|organ_(musical_instrument)|reed_organ_(musical_instrument),a free-reed instrument in which air is forced through the reeds by bellows,2,2,r
+544,hat.n.01,hat,"headwear that protects the head from bad weather, sun, or worn for fashion",1357,365,f
+545,hatbox.n.01,hatbox,a round piece of luggage for carrying hats,0,0,r
+546,head_covering.n.01,veil,a garment that covers the head OR face,9,9,c
+547,headband.n.01,headband,a band worn around or over the head,232,178,f
+548,headboard.n.01,headboard,a vertical board or panel forming the head of a bedstead,155,142,f
+549,headlight.n.01,headlight|headlamp,a powerful light with reflector; attached to the front of an automobile or locomotive,1442,369,f
+550,headscarf.n.01,headscarf,a kerchief worn over the head and tied under the chin,47,22,c
+551,headset.n.01,headset,receiver consisting of a pair of headphones,4,3,r
+552,headstall.n.01,headstall_(for_horses)|headpiece_(for_horses),the band that is the part of a bridle that fits around a horse's head,16,10,c
+553,heart.n.02,heart,a muscular organ; its contractions move the blood through the body,84,16,c
+554,heater.n.01,heater|warmer,device that heats water or supplies warmth to a room,12,11,c
+555,helicopter.n.01,helicopter,an aircraft without wings that obtains its lift from the rotation of overhead blades,9,8,c
+556,helmet.n.02,helmet,a protective headgear made of hard material to resist blows,884,371,f
+557,heron.n.02,heron,grey or white wading bird with long neck and long legs and (usually) long bill,2,2,r
+558,highchair.n.01,highchair|feeding_chair,a chair for feeding a very young child,8,7,c
+559,hinge.n.01,hinge,a joint that holds two parts together so that one can swing relative to the other,811,241,f
+560,hippopotamus.n.01,hippopotamus,massive thick-skinned animal living in or around rivers of tropical Africa,7,4,r
+561,hockey_stick.n.01,hockey_stick,sports implement consisting of a stick used by hockey players to move the puck,2,2,r
+562,hog.n.03,hog|pig,domestic swine,31,16,c
+563,home_plate.n.01,home_plate_(baseball)|home_base_(baseball),(baseball) a rubber slab where the batter stands; it must be touched by a base runner in order to score,88,86,f
+564,honey.n.01,honey,a sweet yellow liquid produced by bees,5,3,c
+565,hood.n.06,fume_hood|exhaust_hood,metal covering leading to a vent that exhausts smoke or fumes,33,33,f
+566,hook.n.05,hook,a curved or bent implement for suspending or pulling something,200,44,f
+567,hookah.n.01,hookah|narghile|nargileh|sheesha|shisha|water_pipe,a tobacco pipe with a long flexible tube connected to a container where the smoke is cooled by passing through water,0,0,r
+568,hornet.n.01,hornet,large stinging wasp,0,0,r
+569,horse.n.01,horse,a common horse,851,395,f
+570,hose.n.03,hose|hosepipe,a flexible pipe for conveying a liquid or gas,101,53,f
+571,hot-air_balloon.n.01,hot-air_balloon,balloon for travel through the air in a basket suspended below a large bag of heated air,0,0,r
+572,hot_plate.n.01,hotplate,a portable electric appliance for heating or cooking or keeping food warm,1,1,r
+573,hot_sauce.n.01,hot_sauce,a pungent peppery sauce,19,13,c
+574,hourglass.n.01,hourglass,a sandglass timer that runs for sixty minutes,0,0,r
+575,houseboat.n.01,houseboat,a barge that is designed and equipped for use as a dwelling,0,0,r
+576,hummingbird.n.01,hummingbird,tiny American bird having brilliant iridescent plumage and long slender bills,1,1,c
+577,hummus.n.01,hummus|humus|hommos|hoummos|humous,a thick spread made from mashed chickpeas,0,0,r
+578,ice_bear.n.01,polar_bear,white bear of Arctic regions,36,28,f
+579,ice_cream.n.01,icecream,frozen dessert containing cream and sugar and flavoring,15,6,c
+580,ice_lolly.n.01,popsicle,ice cream or water ice on a small wooden stick,2,1,r
+581,ice_maker.n.01,ice_maker,an appliance included in some electric refrigerators for making ice cubes,8,7,c
+582,ice_pack.n.01,ice_pack|ice_bag,a waterproof bag filled with ice: applied to the body (especially the head) to cool or reduce swelling,0,0,r
+583,ice_skate.n.01,ice_skate,skate consisting of a boot with a steel blade fitted to the sole,0,0,r
+584,igniter.n.01,igniter|ignitor|lighter,a substance or device used to start a fire,21,16,c
+585,inhaler.n.01,inhaler|inhalator,a dispenser that produces a chemical vapor to be inhaled through mouth or nose,0,0,r
+586,ipod.n.01,iPod,a pocket-sized device used to play music files,31,30,f
+587,iron.n.04,iron_(for_clothing)|smoothing_iron_(for_clothing),home appliance consisting of a flat metal base that is heated and used to smooth cloth,6,6,c
+588,ironing_board.n.01,ironing_board,narrow padded board on collapsible supports; used for ironing clothes,5,4,c
+589,jacket.n.01,jacket,a waist-length coat,1569,398,f
+590,jam.n.01,jam,preserve of crushed fruit,3,2,c
+591,jar.n.01,jar,a vessel (usually cylindrical) with a wide mouth and without handles,304,62,f
+592,jean.n.01,jean|blue_jean|denim,(usually plural) close-fitting trousers of heavy denim for manual work or casual wear,971,379,f
+593,jeep.n.01,jeep|landrover,a car suitable for traveling over rough terrain,11,9,c
+594,jelly_bean.n.01,jelly_bean|jelly_egg,sugar-glazed jellied candy,0,0,r
+595,jersey.n.03,jersey|T-shirt|tee_shirt,a close-fitting pullover shirt,1392,349,f
+596,jet.n.01,jet_plane|jet-propelled_plane,an airplane powered by one or more jet engines,22,10,c
+597,jewel.n.01,jewel|gem|precious_stone,a precious or semiprecious stone incorporated into a piece of jewelry,0,0,r
+598,jewelry.n.01,jewelry|jewellery,an adornment (as a bracelet or ring or necklace) made of precious metals and set with gems (or imitation gems),58,4,c
+599,joystick.n.02,joystick,a control device for computers consisting of a vertical handle that can move freely in two directions,2,1,r
+600,jump_suit.n.01,jumpsuit,one-piece garment fashioned after a parachutist's uniform,1,1,c
+601,kayak.n.01,kayak,a small canoe consisting of a light frame made watertight with animal skins,13,6,c
+602,keg.n.02,keg,small cask or barrel,2,1,r
+603,kennel.n.01,kennel|doghouse,outbuilding that serves as a shelter for a dog,2,1,r
+604,kettle.n.01,kettle|boiler,a metal pot for stewing or boiling; usually has a lid,31,22,c
+605,key.n.01,key,metal instrument used to unlock a lock,104,43,f
+606,keycard.n.01,keycard,a plastic card used to gain access typically to a door,0,0,r
+607,kilt.n.01,kilt,a knee-length pleated tartan skirt worn by men as part of the traditional dress in the Highlands of northern Scotland,0,0,c
+608,kimono.n.01,kimono,a loose robe; imitated from robes originally worn by Japanese,7,3,c
+609,kitchen_sink.n.01,kitchen_sink,a sink in a kitchen,129,123,f
+610,kitchen_table.n.01,kitchen_table,a table in the kitchen,7,7,r
+611,kite.n.03,kite,plaything consisting of a light frame covered with tissue paper; flown in wind at end of a string,1803,335,f
+612,kitten.n.01,kitten|kitty,young domestic cat,11,8,c
+613,kiwi.n.03,kiwi_fruit,fuzzy brown egg-shaped fruit with slightly tart green flesh,189,20,c
+614,knee_pad.n.01,knee_pad,protective garment consisting of a pad worn by football or baseball or hockey players,301,152,f
+615,knife.n.01,knife,tool with a blade and point used as a cutting instrument,735,368,f
+616,knitting_needle.n.01,knitting_needle,needle consisting of a slender rod with pointed ends; usually used in pairs,0,0,r
+617,knob.n.02,knob,a round handle often found on a door,1483,277,f
+618,knocker.n.05,knocker_(on_a_door)|doorknocker,a device (usually metal and ornamental) attached by a hinge to a door,2,2,r
+619,koala.n.01,koala|koala_bear,sluggish tailless Australian marsupial with grey furry ears and coat,1,1,r
+620,lab_coat.n.01,lab_coat|laboratory_coat,a light coat worn to protect clothing from substances used while working in a laboratory,4,3,r
+621,ladder.n.01,ladder,steps consisting of two parallel members connected by rungs,167,117,f
+622,ladle.n.01,ladle,a spoon-shaped vessel with a long handle frequently used to transfer liquids,42,17,c
+623,ladybug.n.01,ladybug|ladybeetle|ladybird_beetle,"small round bright-colored and spotted beetle, typically red and black",4,2,c
+624,lamb.n.01,lamb_(animal),young sheep,71,17,f
+625,lamb_chop.n.01,lamb-chop|lambchop,chop cut from a lamb,3,1,r
+626,lamp.n.02,lamp,a piece of furniture holding one or more electric light bulbs,854,382,f
+627,lamppost.n.01,lamppost,a metal post supporting an outdoor lamp (such as a streetlight),463,132,f
+628,lampshade.n.01,lampshade,a protective ornamental shade used to screen a light bulb from direct view,403,214,f
+629,lantern.n.01,lantern,light in a transparent protective case,47,12,c
+630,lanyard.n.02,lanyard|laniard,"a cord worn around the neck to hold a knife or whistle, etc.",226,84,f
+631,laptop.n.01,laptop_computer|notebook_computer,a portable computer small enough to use in your lap,551,412,f
+632,lasagna.n.01,lasagna|lasagne,baked dish of layers of lasagna pasta with sauce and cheese and meat or vegetables,1,1,r
+633,latch.n.02,latch,a bar that can be lowered or slid into a groove to fasten a door or gate,149,42,f
+634,lawn_mower.n.01,lawn_mower,garden tool for mowing grass on lawns,3,3,r
+635,leather.n.01,leather,an animal skin made smooth and flexible by removing the hair and then tanning,1,1,r
+636,legging.n.01,legging_(clothing)|leging_(clothing)|leg_covering,a garment covering the leg (usually extending from the knee to the ankle),23,12,c
+637,lego.n.01,Lego|Lego_set,a child's plastic construction set for making models from blocks,168,9,c
+638,legume.n.02,legume,the fruit or seed of bean or pea plants,242,5,r
+639,lemon.n.01,lemon,yellow oval fruit with juicy acidic flesh,440,78,f
+640,lemonade.n.01,lemonade,sweetened beverage of diluted lemon juice,0,0,r
+641,lettuce.n.02,lettuce,leafy plant commonly eaten in salad or on sandwiches,859,116,f
+642,license_plate.n.01,license_plate|numberplate,a plate mounted on the front and back of car and bearing the car's registration number,761,340,f
+643,life_buoy.n.01,life_buoy|lifesaver|life_belt|life_ring,a ring-shaped life preserver used to prevent drowning (NOT a life-jacket or vest),78,32,f
+644,life_jacket.n.01,life_jacket|life_vest,life preserver consisting of a sleeveless jacket of buoyant or inflatable design,84,35,f
+645,light_bulb.n.01,lightbulb,lightblub/source of light,1135,180,f
+646,lightning_rod.n.02,lightning_rod|lightning_conductor,a metallic conductor that is attached to a high point and leads to the ground,0,0,r
+647,lime.n.06,lime,the green acidic fruit of any of various lime trees,201,24,f
+648,limousine.n.01,limousine,long luxurious car; usually driven by a chauffeur,2,2,r
+649,lion.n.01,lion,large gregarious predatory cat of Africa and India,24,13,c
+650,lip_balm.n.01,lip_balm,a balm applied to the lips,4,2,c
+651,liquor.n.01,liquor|spirits|hard_liquor|liqueur|cordial,liquor or beer,33,2,r
+652,lizard.n.01,lizard,a reptile with usually two pairs of legs and a tapering tail,4,4,c
+653,log.n.01,log,a segment of the trunk of a tree when stripped of branches,1105,199,f
+654,lollipop.n.02,lollipop,hard candy on a stick,33,5,c
+655,loudspeaker.n.01,speaker_(stero_equipment),electronic device that produces sound often as part of a stereo system,393,210,f
+656,love_seat.n.01,loveseat,small sofa that seats two people,14,11,c
+657,machine_gun.n.01,machine_gun,a rapidly firing automatic gun,3,1,r
+658,magazine.n.02,magazine,a paperback periodic publication,329,84,f
+659,magnet.n.01,magnet,a device that attracts iron and produces a magnetic field,1494,67,f
+660,mail_slot.n.01,mail_slot,a slot (usually in a door) through which mail can be delivered,4,4,c
+661,mailbox.n.01,mailbox_(at_home)|letter_box_(at_home),a private box for delivery of mail,45,22,f
+662,mallard.n.01,mallard,wild dabbling duck from which domestic ducks are descended,0,0,r
+663,mallet.n.01,mallet,a sports implement with a long handle and a hammer-like head used to hit a ball,13,4,r
+664,mammoth.n.01,mammoth,any of numerous extinct elephants widely distributed in the Pleistocene,0,0,r
+665,manatee.n.01,manatee,sirenian mammal of tropical coastal waters of America,0,0,r
+666,mandarin.n.05,mandarin_orange,a somewhat flat reddish-orange loose skinned citrus of China,188,10,c
+667,manger.n.01,manger|trough,a container (usually in a barn or stable) from which cattle or horses feed,23,18,c
+668,manhole.n.01,manhole,a hole (usually with a flush cover) through which a person can gain access to an underground structure,71,40,f
+669,map.n.01,map,a diagrammatic representation of the earth's surface (or part of it),36,24,f
+670,marker.n.03,marker,a writing implement for making a mark,71,21,f
+671,martini.n.01,martini,a cocktail made of gin (or vodka) with dry vermouth,1,1,r
+672,mascot.n.01,mascot,a person or animal that is adopted by a team or other group as a symbolic figure,0,0,r
+673,mashed_potato.n.01,mashed_potato,potato that has been peeled and boiled and then mashed,34,15,c
+674,masher.n.02,masher,a kitchen utensil used for mashing (e.g. potatoes),0,0,r
+675,mask.n.04,mask|facemask,a protective covering worn over the face,293,158,f
+676,mast.n.01,mast,a vertical spar for supporting sails,586,68,f
+677,mat.n.03,mat_(gym_equipment)|gym_mat,sports equipment consisting of a piece of thick padding on the floor for gymnastics,10,4,c
+678,matchbox.n.01,matchbox,a box for holding matches,2,2,r
+679,mattress.n.01,mattress,a thick pad filled with resilient material used as a bed or part of a bed,74,48,f
+680,measuring_cup.n.01,measuring_cup,graduated cup used to measure liquid or granular ingredients,15,12,c
+681,measuring_stick.n.01,measuring_stick|ruler_(measuring_stick)|measuring_rod,measuring instrument having a sequence of marks at regular intervals,7,6,c
+682,meatball.n.01,meatball,ground meat formed into a ball and fried or simmered in broth,16,3,c
+683,medicine.n.02,medicine,something that treats or prevents or alleviates the symptoms of disease,49,13,c
+684,melon.n.01,melon,fruit of the gourd family having a hard rind and sweet juicy flesh,38,4,c
+685,microphone.n.01,microphone,device for converting sound waves into electrical energy,90,60,f
+686,microscope.n.01,microscope,magnifier of the image of small objects,2,2,r
+687,microwave.n.02,microwave_oven,kitchen appliance that cooks food by passing an electromagnetic wave through it,191,181,f
+688,milestone.n.01,milestone|milepost,stone post at side of a road to show distances,1,1,r
+689,milk.n.01,milk,a white nutritious liquid secreted by mammals and used as food by human beings,19,16,f
+690,milk_can.n.01,milk_can,can for transporting milk,0,0,r
+691,milkshake.n.01,milkshake,frothy drink of milk and flavoring and sometimes fruit or ice cream,1,1,r
+692,minivan.n.01,minivan,a small box-shaped passenger van,311,102,f
+693,mint.n.05,mint_candy,a candy that is flavored with a mint oil,6,3,r
+694,mirror.n.01,mirror,polished surface that forms images by reflecting light,573,336,f
+695,mitten.n.01,mitten,glove that encases the thumb separately and the other four fingers together,33,12,c
+696,mixer.n.04,mixer_(kitchen_tool)|stand_mixer,a kitchen utensil that is used for mixing foods,20,16,c
+697,money.n.03,money,the official currency issued by a government or national bank,79,11,c
+698,monitor.n.04,monitor_(computer_equipment) computer_monitor,a computer monitor,598,280,f
+699,monkey.n.01,monkey,any of various long-tailed primates,12,12,c
+700,motor.n.01,motor,machine that converts other forms of energy into mechanical energy and so imparts motion,149,75,f
+701,motor_scooter.n.01,motor_scooter|scooter,a wheeled vehicle with small wheels and a low-powered engine,111,47,f
+702,motor_vehicle.n.01,motor_vehicle|automotive_vehicle,a self-propelled wheeled vehicle that does not run on rails,0,0,r
+703,motorcycle.n.01,motorcycle,a motor vehicle with two wheels and a strong frame,1321,354,f
+704,mound.n.01,mound_(baseball)|pitcher's_mound,(baseball) the slight elevation on which the pitcher stands,48,47,f
+705,mouse.n.04,mouse_(computer_equipment)|computer_mouse,a computer input device that controls an on-screen pointer (does not include trackpads / touchpads),384,289,f
+706,mousepad.n.01,mousepad,a small portable pad that provides an operating surface for a computer mouse,66,55,f
+707,muffin.n.01,muffin,a sweet quick bread baked in a cup-shaped pan,154,15,c
+708,mug.n.04,mug,with handle and usually cylindrical,368,180,f
+709,mushroom.n.02,mushroom,a common mushroom,1357,85,f
+710,music_stool.n.01,music_stool|piano_stool,a stool for piano players; usually adjustable in height,0,0,r
+711,musical_instrument.n.01,musical_instrument|instrument_(musical),any of various devices or contrivances that can be used to produce musical tones or sounds,3,1,c
+712,nailfile.n.01,nailfile,a small flat file for shaping the nails,0,0,r
+713,napkin.n.01,napkin|table_napkin|serviette,a small piece of table linen or paper that is used to wipe the mouth and to cover the lap in order to protect clothing,918,391,f
+714,neckerchief.n.01,neckerchief,a kerchief worn around the neck,0,0,r
+715,necklace.n.01,necklace,jewelry consisting of a cord or chain (often bearing gems) worn about the neck as an ornament,524,386,f
+716,necktie.n.01,necktie|tie_(necktie),neckwear consisting of a long narrow piece of material worn under a collar and tied in knot at the front,815,361,f
+717,needle.n.03,needle,a sharp pointed implement (usually metal),4,3,c
+718,nest.n.01,nest,a structure in which animals lay eggs or give birth to their young,3,2,c
+719,newspaper.n.01,newspaper|paper_(newspaper),"a daily or weekly publication on folded sheets containing news, articles, and advertisements",202,63,f
+720,newsstand.n.01,newsstand,a stall where newspapers and other periodicals are sold,6,3,c
+721,nightwear.n.01,nightshirt|nightwear|sleepwear|nightclothes,garments designed to be worn in bed,3,3,c
+722,nosebag.n.01,nosebag_(for_animals)|feedbag,a canvas bag that is used to feed an animal (such as a horse); covers the muzzle and fastens at the top of the head,1,1,r
+723,noseband.n.01,noseband_(for_animals)|nosepiece_(for_animals),a strap that is the part of a bridle that goes over the animal's nose,21,10,c
+724,notebook.n.01,notebook,a book with blank pages for recording notes or memoranda,96,45,f
+725,notepad.n.01,notepad,a pad of paper for keeping notes,29,18,c
+726,nut.n.03,nut,a small metal block (usually square or hexagonal) with internal screw thread to be fitted onto a bolt,99,11,f
+727,nutcracker.n.01,nutcracker,a hand tool used to crack nuts open,0,0,r
+728,oar.n.01,oar,an implement used to propel or steer a boat,51,19,f
+729,octopus.n.01,octopus_(food),tentacles of octopus prepared as food,0,0,r
+730,octopus.n.02,octopus_(animal),bottom-living cephalopod having a soft oval body with eight long tentacles,0,0,r
+731,oil_lamp.n.01,oil_lamp|kerosene_lamp|kerosine_lamp,a lamp that burns oil (as kerosine) for light,1,1,c
+732,olive_oil.n.01,olive_oil,oil from olives,17,6,c
+733,omelet.n.01,omelet|omelette,beaten eggs cooked until just set; may be folded around e.g. ham or cheese or jelly,9,5,r
+734,onion.n.01,onion,the bulb of an onion plant,1767,135,f
+735,orange.n.01,orange_(fruit),orange (FRUIT of an orange tree),2364,161,f
+736,orange_juice.n.01,orange_juice,bottled or freshly squeezed juice of oranges,21,15,c
+737,ostrich.n.02,ostrich,fast-running African flightless bird with two-toed feet; largest living bird,9,8,c
+738,ottoman.n.03,ottoman|pouf|pouffe|hassock,"a thick standalone cushion used as a seat or footrest, often next to a chair",48,34,f
+739,oven.n.01,oven,kitchen appliance used for baking or roasting,111,96,f
+740,overall.n.01,overalls_(clothing),work clothing consisting of denim trousers usually with a bib and shoulder straps,14,13,c
+741,owl.n.01,owl,nocturnal bird of prey with hawk-like beak and claws and large head with front-facing eyes,14,11,c
+742,packet.n.03,packet,a small package or bundle,41,4,c
+743,pad.n.03,inkpad|inking_pad|stamp_pad,absorbent material saturated with ink used to transfer ink evenly to a rubber stamp,0,0,r
+744,pad.n.04,pad,mostly arm/knee pads labeled,52,13,c
+745,paddle.n.04,paddle|boat_paddle,a short light oar used without an oarlock to propel a canoe or small boat,30,16,f
+746,padlock.n.01,padlock,"a detachable, portable lock",27,18,c
+747,paintbrush.n.01,paintbrush,a brush used as an applicator to apply paint,15,7,c
+748,painting.n.01,painting,graphic art consisting of an artistic composition made by applying paints to a surface,574,230,f
+749,pajama.n.02,pajamas|pyjamas,loose-fitting nightclothes worn for sleeping or lounging,54,27,f
+750,palette.n.02,palette|pallet,board that provides a flat surface on which artists mix paints and the range of colors used,42,6,c
+751,pan.n.01,pan_(for_cooking)|cooking_pan,cooking utensil consisting of a wide metal vessel,242,61,f
+752,pan.n.03,pan_(metal_container),shallow container made of metal,1,1,r
+753,pancake.n.01,pancake,a flat cake of thin batter fried on both sides on a griddle,45,13,c
+754,pantyhose.n.01,pantyhose,a woman's tights consisting of underpants and stockings,3,3,r
+755,papaya.n.02,papaya,large oval melon-like tropical fruit with yellowish flesh,96,7,r
+756,paper_plate.n.01,paper_plate,a disposable plate made of cardboard,170,60,f
+757,paper_towel.n.01,paper_towel,a disposable towel made of absorbent paper,116,95,f
+758,paperback_book.n.01,paperback_book|paper-back_book|softback_book|soft-cover_book,a book with paper covers,19,1,r
+759,paperweight.n.01,paperweight,a weight used to hold down a stack of papers,1,1,r
+760,parachute.n.01,parachute,rescue equipment consisting of a device that fills with air and retards your fall,16,5,c
+761,parakeet.n.01,parakeet|parrakeet|parroket|paraquet|paroquet|parroquet,any of numerous small slender long-tailed parrots,21,5,c
+762,parasail.n.01,parasail_(sports),parachute that will lift a person up into the air when it is towed by a motorboat or a car,50,15,c
+763,parasol.n.01,parasol|sunshade,a handheld collapsible source of shade,7,5,c
+764,parchment.n.01,parchment,a superior paper resembling sheepskin,6,1,r
+765,parka.n.01,parka|anorak,a kind of heavy jacket (`windcheater' is a British term),29,4,c
+766,parking_meter.n.01,parking_meter,a coin-operated timer located next to a parking space,182,104,f
+767,parrot.n.01,parrot,usually brightly colored tropical birds with short hooked beaks and the ability to mimic sounds,8,5,c
+768,passenger_car.n.01,passenger_car_(part_of_a_train)|coach_(part_of_a_train),a railcar where passengers ride,59,13,c
+769,passenger_ship.n.01,passenger_ship,a ship built to carry passengers,0,0,r
+770,passport.n.02,passport,a document issued by a country to a citizen allowing that person to travel abroad and re-enter the home country,6,4,c
+771,pastry.n.02,pastry,any of various baked foods made of dough or batter,1683,56,f
+772,patty.n.01,patty_(food),small flat mass of chopped food,0,0,r
+773,pea.n.01,pea_(food),seed of a pea plant used for food,467,19,c
+774,peach.n.03,peach,downy juicy fruit with sweet yellowish or whitish flesh,257,14,c
+775,peanut_butter.n.01,peanut_butter,a spread made from ground peanuts,18,10,c
+776,pear.n.01,pear,sweet juicy gritty-textured fruit available in many varieties,268,28,f
+777,peeler.n.03,peeler_(tool_for_fruit_and_vegetables),a device for peeling vegetables or fruits,2,2,c
+778,peg.n.04,wooden_leg|pegleg,a prosthesis that replaces a missing leg,0,0,r
+779,pegboard.n.01,pegboard,a board perforated with regularly spaced holes into which pegs can be fitted,0,0,r
+780,pelican.n.01,pelican,large long-winged warm-water seabird having a large bill with a distensible pouch for fish,24,9,c
+781,pen.n.01,pen,a writing implement with a point from which ink flows,237,63,f
+782,pencil.n.01,pencil,a thin cylindrical pointed writing implement made of wood and graphite,83,27,f
+783,pencil_box.n.01,pencil_box|pencil_case,a box for holding pencils,1,1,r
+784,pencil_sharpener.n.01,pencil_sharpener,a rotary implement for sharpening the point on pencils,3,3,r
+785,pendulum.n.01,pendulum,an apparatus consisting of an object mounted so that it swings freely under the influence of gravity,1,1,r
+786,penguin.n.01,penguin,short-legged flightless birds of cold southern regions having webbed feet and wings modified as flippers,28,8,c
+787,pennant.n.02,pennant,a flag longer than it is wide (and often tapering),34,1,r
+788,penny.n.02,penny_(coin),a coin worth one-hundredth of the value of the basic unit,2,1,r
+789,pepper.n.03,pepper|peppercorn,pungent seasoning from the berry of the common pepper plant; whole or ground,86,32,f
+790,pepper_mill.n.01,pepper_mill|pepper_grinder,a mill for grinding pepper,19,16,c
+791,perfume.n.02,perfume,a toiletry that emits and diffuses a fragrant odor,16,5,c
+792,persimmon.n.02,persimmon,orange fruit resembling a plum; edible when fully ripe,0,0,r
+793,person.n.01,person|baby|child|boy|girl|man|woman|human,a human being,2530,390,f
+794,pet.n.01,pet,a domesticated animal kept for companionship or amusement,27,17,c
+795,pew.n.01,pew_(church_bench)|church_bench,long bench with backs; used in church by the congregation,12,1,c
+796,phonebook.n.01,phonebook|telephone_book|telephone_directory,a directory containing an alphabetical list of telephone subscribers and their telephone numbers,1,1,r
+797,phonograph_record.n.01,phonograph_record|phonograph_recording|record_(phonograph_recording),sound recording consisting of a typically black disk with a continuous groove,26,6,c
+798,piano.n.01,piano,a keyboard instrument that is played by depressing keys that cause hammers to strike tuned strings and produce sounds,24,20,f
+799,pickle.n.01,pickle,vegetables (especially cucumbers) preserved in brine or vinegar,162,45,f
+800,pickup.n.01,pickup_truck,a light truck with an open body and low sides and a tailboard,171,85,f
+801,pie.n.01,pie,dish baked in pastry-lined pan often with a pastry top,22,9,c
+802,pigeon.n.01,pigeon,wild and domesticated birds having a heavy body and short legs,233,10,c
+803,piggy_bank.n.01,piggy_bank|penny_bank,a child's coin bank (often shaped like a pig),1,1,r
+804,pillow.n.01,pillow,a cushion to support the head of a sleeping person,1290,407,f
+805,pin.n.09,pin_(non_jewelry),a small slender (often pointed) piece of wood or metal used to support or fasten or attach things,20,4,r
+806,pineapple.n.02,pineapple,large sweet fleshy tropical fruit with a tuft of stiff leaves,215,36,f
+807,pinecone.n.01,pinecone,the seed-producing cone of a pine tree,12,6,c
+808,ping-pong_ball.n.01,ping-pong_ball,light hollow ball used in playing table tennis,0,0,r
+809,pinwheel.n.03,pinwheel,a toy consisting of vanes of colored paper or plastic that is pinned to a stick and spins when it is pointed into the wind,0,0,r
+810,pipe.n.01,tobacco_pipe,a tube with a small bowl at one end; used for smoking tobacco,1,1,r
+811,pipe.n.02,pipe|piping,a long tube made of metal or plastic that is used to carry water or oil or gas etc.,786,243,f
+812,pistol.n.01,pistol|handgun,a firearm that is held and fired with one hand,1,1,r
+813,pita.n.01,pita_(bread)|pocket_bread,usually small round bread that can open into a pocket for filling,4,2,c
+814,pitcher.n.02,pitcher_(vessel_for_liquid)|ewer,an open vessel with a handle and a spout for pouring,115,70,f
+815,pitchfork.n.01,pitchfork,a long-handled hand tool with sharp widely spaced prongs for lifting and pitching hay,0,0,r
+816,pizza.n.01,pizza,Italian open pie made of thin bread dough spread with a spiced mixture of e.g. tomato sauce and cheese,782,391,f
+817,place_mat.n.01,place_mat,a mat placed on a table for an individual place setting,330,125,f
+818,plate.n.04,plate,dish on which food is served or from which food is eaten,1042,365,f
+819,platter.n.01,platter,a large shallow dish used for serving food,23,7,c
+820,playpen.n.01,playpen,a portable enclosure in which babies may be left to play,1,1,r
+821,pliers.n.01,pliers|plyers,a gripping hand tool with two hinged arms and (usually) serrated jaws,24,6,c
+822,plow.n.01,plow_(farm_equipment)|plough_(farm_equipment),a farm tool having one or more heavy blades to break the soil and cut a furrow prior to sowing,3,3,r
+823,plume.n.02,plume,a feather or cluster of feathers worn as an ornament,0,0,r
+824,pocket_watch.n.01,pocket_watch,a watch that is carried in a small watch pocket,0,0,r
+825,pocketknife.n.01,pocketknife,a knife with a blade that folds into the handle; suitable for carrying in the pocket,1,1,c
+826,poker.n.01,poker_(fire_stirring_tool)|stove_poker|fire_hook,fire iron consisting of a metal rod with a handle; used to stir a fire,4,2,c
+827,pole.n.01,pole|post,a long (usually round) rod of wood or metal or plastic,2724,346,f
+828,polo_shirt.n.01,polo_shirt|sport_shirt,a shirt with short sleeves designed for comfort and casual wear,371,141,f
+829,poncho.n.01,poncho,a blanket-like cloak with a hole in the center for the head,10,2,r
+830,pony.n.05,pony,any of various breeds of small gentle horses usually less than five feet high at the shoulder,24,12,c
+831,pool_table.n.01,pool_table|billiard_table|snooker_table,game equipment consisting of a heavy table on which pool is played,1,1,r
+832,pop.n.02,pop_(soda)|soda_(pop)|tonic|soft_drink,a sweet drink containing carbonated water and flavoring,217,42,f
+833,postbox.n.01,postbox_(public)|mailbox_(public),public box for deposit of mail,12,10,c
+834,postcard.n.01,postcard|postal_card|mailing-card,a card for sending messages by post without an envelope,0,0,c
+835,poster.n.01,poster|placard,a sign posted in a public place as an advertisement,589,163,f
+836,pot.n.01,pot,metal or earthenware cooking vessel that is usually round and deep; often has a handle and lid,282,96,f
+837,pot.n.04,flowerpot,a container in which plants are cultivated,850,264,f
+838,potato.n.01,potato,an edible tuber native to South America,683,62,f
+839,potholder.n.01,potholder,an insulated pad for holding hot pots,12,7,c
+840,pottery.n.01,pottery|clayware,ceramic ware made from clay and baked in a kiln,95,6,c
+841,pouch.n.01,pouch,a small or medium size container for holding or carrying things,18,10,c
+842,power_shovel.n.01,power_shovel|excavator|digger,a machine for excavating,4,2,c
+843,prawn.n.01,prawn|shrimp,any of various edible decapod crustaceans,111,13,c
+844,pretzel.n.01,pretzel,glazed and salted cracker typically in the shape of a loose knot,13,2,c
+845,printer.n.03,printer|printing_machine,a machine that prints,59,55,f
+846,projectile.n.01,projectile_(weapon)|missile,a weapon that is forcibly thrown or projected at a targets,15,7,c
+847,projector.n.02,projector,an optical instrument that projects an enlarged image onto a screen,15,14,c
+848,propeller.n.01,propeller|propellor,a mechanical device that rotates to push against air or water,212,120,f
+849,prune.n.01,prune,dried plum,0,0,r
+850,pudding.n.01,pudding,any of various soft thick unsweetened baked dishes,0,0,r
+851,puffer.n.02,puffer_(fish)|pufferfish|blowfish|globefish,fishes whose elongated spiny body can inflate itself with water or air to form a globe,0,0,r
+852,puffin.n.01,puffin,seabirds having short necks and brightly colored compressed bills,3,1,r
+853,pug.n.01,pug-dog,small compact smooth-coated breed of Asiatic origin having a tightly curled tail and broad flat wrinkled muzzle,0,0,r
+854,pumpkin.n.02,pumpkin,usually large pulpy deep-yellow round fruit of the squash family maturing in late summer or early autumn,422,13,c
+855,punch.n.03,puncher,a tool for making holes or indentations,0,0,r
+856,puppet.n.01,puppet|marionette,a small figure of a person operated from above with strings by a puppeteer,0,0,r
+857,puppy.n.01,puppy,a young dog,14,9,c
+858,quesadilla.n.01,quesadilla,a tortilla that is filled with cheese and heated,0,0,r
+859,quiche.n.02,quiche,a tart filled with rich unsweetened custard; often contains other ingredients (as cheese or ham or seafood or vegetables),1,1,r
+860,quilt.n.01,quilt|comforter,bedding made of two layers of cloth filled with stuffing and stitched together,92,71,f
+861,rabbit.n.01,rabbit,any of various burrowing animals of the family Leporidae having long ears and short tails,14,9,c
+862,racer.n.02,race_car|racing_car,a fast car that competes in races,0,0,r
+863,racket.n.04,racket|racquet,a sports implement used to strike a ball in various games,20,7,c
+864,radar.n.01,radar,measuring instrument in which the echo of a pulse of microwave radiation is used to detect and locate distant objects,0,0,r
+865,radiator.n.03,radiator,a mechanism consisting of a metal honeycomb through which hot fluids circulate,41,35,f
+866,radio_receiver.n.01,radio_receiver|radio_set|radio|tuner_(radio),an electronic receiver that detects and demodulates and amplifies transmitted radio signals,23,21,c
+867,radish.n.03,radish|daikon,pungent edible root of any of various cultivated radish plants,184,14,c
+868,raft.n.01,raft,a flat float (usually made of logs or planks) that can be used for transport or as a platform for swimmers,40,9,c
+869,rag_doll.n.01,rag_doll,a cloth doll that is stuffed and (usually) painted,0,0,r
+870,raincoat.n.01,raincoat|waterproof_jacket,a water-resistant coat,25,9,c
+871,ram.n.05,ram_(animal),uncastrated adult male sheep,49,12,c
+872,raspberry.n.02,raspberry,red or black edible aggregate berries usually smaller than the related blackberries,246,16,c
+873,rat.n.01,rat,any of various long-tailed rodents similar to but larger than a mouse,2,2,r
+874,razorblade.n.01,razorblade,a blade that has very sharp edge,6,5,c
+875,reamer.n.01,reamer_(juicer)|juicer|juice_reamer,a squeezer with a conical ridged center that is used for squeezing juice from citrus fruit,5,5,c
+876,rearview_mirror.n.01,rearview_mirror,vehicle mirror (side or rearview),571,197,f
+877,receipt.n.02,receipt,an acknowledgment (usually tangible) that payment has been made,8,7,c
+878,recliner.n.01,recliner|reclining_chair|lounger_(chair),an armchair whose back can be lowered and foot can be raised to allow the sitter to recline in it,5,4,c
+879,record_player.n.01,record_player|phonograph_(record_player)|turntable,machine in which rotating records cause a stylus to vibrate and the vibrations are amplified acoustically or electronically,4,4,c
+880,reflector.n.01,reflector,"device that reflects light, radiation, etc.",639,121,f
+881,remote_control.n.01,remote_control,a device that can be used to control a machine or apparatus from a distance,483,233,f
+882,rhinoceros.n.01,rhinoceros,massive powerful herbivorous odd-toed ungulate of southeast Asia and Africa having very thick skin and one or two horns on the snout,7,5,c
+883,rib.n.03,rib_(food),cut of meat including one or more ribs,0,0,r
+884,rifle.n.01,rifle,a shoulder firearm with a long barrel,0,0,c
+885,ring.n.08,ring,jewelry consisting of a circlet of precious metal (often set with jewels) worn on the finger,375,274,f
+886,river_boat.n.01,river_boat,a boat used on rivers or to ply a river,2,1,r
+887,road_map.n.02,road_map,(NOT A ROAD) a MAP showing roads (for automobile travel),1,1,r
+888,robe.n.01,robe,any loose flowing garment,10,5,c
+889,rocking_chair.n.01,rocking_chair,a chair mounted on rockers,15,13,c
+890,rodent.n.01,rodent,relatively small placental mammals having a single pair of constantly growing incisor teeth specialized for gnawing,0,0,r
+891,roller_skate.n.01,roller_skate,a shoe with pairs of rollers (small hard wheels) fixed to the sole,1,1,r
+892,rollerblade.n.01,Rollerblade,an in-line variant of a roller skate,6,2,r
+893,rolling_pin.n.01,rolling_pin,utensil consisting of a cylinder (usually of wood) with a handle at each end; used to roll out dough,13,11,c
+894,root_beer.n.01,root_beer,carbonated drink containing extracts of roots and herbs,0,0,r
+895,router.n.02,router_(computer_equipment),a device that forwards data packets between computer networks,10,6,c
+896,rubber_band.n.01,rubber_band|elastic_band,a narrow band of elastic rubber used to hold things (such as papers) together,94,59,f
+897,runner.n.08,runner_(carpet),a long narrow carpet,4,3,c
+898,sack.n.01,plastic_bag|paper_bag,a bag made of paper or plastic for holding customer's purchases,738,275,f
+899,saddle.n.01,saddle_(on_an_animal),a seat for the rider of a horse or camel,209,112,f
+900,saddle_blanket.n.01,saddle_blanket|saddlecloth|horse_blanket,stable gear consisting of a blanket placed under the saddle,103,58,f
+901,saddlebag.n.01,saddlebag,a large bag (or pair of bags) hung over a saddle,12,6,c
+902,safety_pin.n.01,safety_pin,a pin in the form of a clasp; has a guard so the point of the pin will not stick the user,0,0,r
+903,sail.n.01,sail,a large piece of fabric by means of which wind is used to propel a sailing vessel,160,47,f
+904,salad.n.01,salad,food mixtures either arranged on a plate or tossed and served with a moist dressing; usually consisting of or including greens,53,27,f
+905,salad_plate.n.01,salad_plate|salad_bowl,a plate or bowl for individual servings of salad,0,0,r
+906,salami.n.01,salami,highly seasoned fatty sausage of pork and beef usually dried,33,3,c
+907,salmon.n.01,salmon_(fish),any of various large food and game fishes of northern waters,2,2,c
+908,salmon.n.03,salmon_(food),flesh of any of various marine or freshwater fish of the family Salmonidae,6,2,r
+909,salsa.n.01,salsa,spicy sauce of tomatoes and onions and chili peppers to accompany Mexican foods,3,2,c
+910,saltshaker.n.01,saltshaker,a shaker with a perforated top for sprinkling salt,121,77,f
+911,sandal.n.01,sandal_(type_of_shoe),a shoe consisting of a sole fastened by straps to the foot,507,175,f
+912,sandwich.n.01,sandwich,two (or more) slices of bread with a filling between them,400,154,f
+913,satchel.n.01,satchel,luggage consisting of a small case with a flat bottom and (usually) a shoulder strap,2,1,r
+914,saucepan.n.01,saucepan,a deep pan with a handle; used for stewing or boiling,12,2,r
+915,saucer.n.02,saucer,a small shallow dish for holding a cup at the table,126,48,f
+916,sausage.n.01,sausage,highly seasoned minced meat stuffed in casings,546,52,f
+917,sawhorse.n.01,sawhorse|sawbuck,a framework for holding wood that is being sawed,2,1,r
+918,sax.n.02,saxophone,a wind instrument with a `J'-shaped form typically made of brass,0,0,r
+919,scale.n.07,scale_(measuring_instrument),a measuring instrument for weighing; shows amount of mass,46,37,f
+920,scarecrow.n.01,scarecrow|strawman,an effigy in the shape of a man to frighten birds away from seeds,1,1,r
+921,scarf.n.01,scarf,a garment worn around the head or neck or shoulders for warmth or decoration,259,164,f
+922,school_bus.n.01,school_bus,a bus used to transport children to or from school,39,18,c
+923,scissors.n.01,scissors,a tool having two crossed pivoting blades with looped handles,269,147,f
+924,scoreboard.n.01,scoreboard,a large board for displaying the score of a contest (and some other information),33,26,f
+925,scraper.n.01,scraper,any of various hand tools for scraping,0,0,r
+926,screwdriver.n.01,screwdriver,a hand tool for driving screws; has a tip that fits into the head of a screw,64,13,c
+927,scrub_brush.n.01,scrubbing_brush,a brush with short stiff bristles for heavy cleaning,28,25,f
+928,sculpture.n.01,sculpture,a three-dimensional work of art,30,14,c
+929,seabird.n.01,seabird|seafowl,a bird that frequents coastal waters and the open ocean: gulls; pelicans; gannets; cormorants; albatrosses; petrels; etc.,4,3,c
+930,seahorse.n.02,seahorse,small fish with horse-like heads bent sharply downward and curled tails,4,1,c
+931,seaplane.n.01,seaplane|hydroplane,an airplane that can land on or take off from water,0,0,r
+932,seashell.n.01,seashell,the shell of a marine organism,55,9,c
+933,sewing_machine.n.01,sewing_machine,a textile machine used as a home appliance for sewing,4,4,c
+934,shaker.n.03,shaker,a container in which something can be shaken,8,5,c
+935,shampoo.n.01,shampoo,cleansing agent consisting of soaps or detergents used for washing the hair,71,28,c
+936,shark.n.01,shark,typically large carnivorous fishes with sharpe teeth,9,5,c
+937,sharpener.n.01,sharpener,any implement that is used to make something (an edge or a point) sharper,1,1,r
+938,sharpie.n.03,Sharpie,a pen with indelible ink that will write on any surface,2,2,r
+939,shaver.n.03,shaver_(electric)|electric_shaver|electric_razor,a razor powered by an electric motor,3,2,r
+940,shaving_cream.n.01,shaving_cream|shaving_soap,toiletry consisting that forms a rich lather for softening the beard before shaving,5,5,c
+941,shawl.n.01,shawl,cloak consisting of an oblong piece of cloth used to cover the head and shoulders,1,1,r
+942,shears.n.01,shears,large scissors with strong blades,4,3,r
+943,sheep.n.01,sheep,woolly usually horned ruminant mammal related to the goat,2599,191,f
+944,shepherd_dog.n.01,shepherd_dog|sheepdog,any of various usually long-haired breeds of dog reared to herd and guard sheep,1,1,r
+945,sherbert.n.01,sherbert|sherbet,a frozen dessert made primarily of fruit juice and sugar,0,0,r
+946,shield.n.02,shield,armor carried on the arm to intercept blows,26,6,c
+947,shirt.n.01,shirt,a garment worn on the upper half of the body,1423,341,f
+948,shoe.n.01,shoe|sneaker_(type_of_shoe)|tennis_shoe,common footwear covering the foot,1970,381,f
+949,shopping_bag.n.01,shopping_bag,a bag made of plastic or strong paper (often with handles); used to transport goods after shopping,70,30,f
+950,shopping_cart.n.01,shopping_cart,a handcart that holds groceries or other goods while shopping,17,8,c
+951,short_pants.n.01,short_pants|shorts_(clothing)|trunks_(clothing),trousers that end at or above the knee,1072,379,f
+952,shot_glass.n.01,shot_glass,a small glass adequate to hold a single swallow of whiskey,36,4,r
+953,shoulder_bag.n.01,shoulder_bag,a large handbag that can be carried by a strap looped over the shoulder,61,30,f
+954,shovel.n.01,shovel,"a hand tool for lifting loose material such as snow, dirt, etc.",17,14,c
+955,shower.n.01,shower_head,a plumbing fixture that sprays water over you,90,72,f
+956,shower_cap.n.01,shower_cap,a tight cap worn to keep hair dry while showering,0,0,r
+957,shower_curtain.n.01,shower_curtain,a curtain that keeps water from splashing out of the shower area,99,74,f
+958,shredder.n.01,shredder_(for_paper),a device that shreds documents,0,0,r
+959,signboard.n.01,signboard,structure displaying a board on which advertisements can be posted,1799,398,f
+960,silo.n.01,silo,a cylindrical tower used for storing goods,12,8,c
+961,sink.n.01,sink,plumbing fixture consisting of a water basin fixed to a wall or floor and having a drainpipe,439,334,f
+962,skateboard.n.01,skateboard,a board with wheels that is ridden in a standing or crouching position and propelled by foot,645,361,f
+963,skewer.n.01,skewer,a long pin for holding meat in position while it is being roasted,36,5,c
+964,ski.n.01,ski,sports equipment for skiing on snow,1491,377,f
+965,ski_boot.n.01,ski_boot,a stiff boot that is fastened to a ski with a ski binding,1371,311,f
+966,ski_parka.n.01,ski_parka|ski_jacket,a parka to be worn while skiing,320,75,f
+967,ski_pole.n.01,ski_pole,a pole with metal points used as an aid in skiing,1507,366,f
+968,skirt.n.02,skirt,a garment hanging from the waist; worn mainly by girls and women,366,218,f
+969,skullcap.n.01,skullcap,rounded brimless cap fitting the crown of the head,0,0,r
+970,sled.n.01,sled|sledge|sleigh,"a vehicle or flat object for transportation over snow by sliding or pulled by dogs, etc.",7,6,c
+971,sleeping_bag.n.01,sleeping_bag,large padded bag designed to be slept in outdoors,4,3,c
+972,sling.n.05,sling_(bandage)|triangular_bandage,bandage to support an injured forearm; slung over the shoulder or neck,0,0,r
+973,slipper.n.01,slipper_(footwear)|carpet_slipper_(footwear),low footwear that can be slipped on and off easily; usually worn indoors,30,13,c
+974,smoothie.n.02,smoothie,a thick smooth drink consisting of fresh fruit pureed with ice cream or yoghurt or milk,3,2,r
+975,snake.n.01,snake|serpent,limbless scaly elongate reptile; some are venomous,0,0,r
+976,snowboard.n.01,snowboard,a board that resembles a broad ski or a small surfboard; used in a standing position to slide down snow-covered slopes,350,194,f
+977,snowman.n.01,snowman,a figure of a person made of packed snow,7,6,c
+978,snowmobile.n.01,snowmobile,tracked vehicle for travel on snow having skis in front,6,1,c
+979,soap.n.01,soap,a cleansing agent made from the salts of vegetable or animal fats,263,130,f
+980,soccer_ball.n.01,soccer_ball,an inflated ball used in playing soccer (called `football' outside of the United States),105,75,f
+981,sock.n.01,sock,cloth covering for the foot; worn inside the shoe; reaches to between the ankle and the knee,1408,389,f
+982,sofa.n.01,sofa|couch|lounge,an upholstered seat for more than one person,528,414,f
+983,softball.n.01,softball,ball used in playing softball,1,1,r
+984,solar_array.n.01,solar_array|solar_battery|solar_panel,electrical device consisting of a large array of connected solar cells,8,6,c
+985,sombrero.n.02,sombrero,a straw hat with a tall crown and broad brim; worn in American southwest and in Mexico,32,1,r
+986,soup.n.01,soup,liquid food especially of meat or fish or vegetable stock often containing pieces of solid food,55,45,f
+987,soup_bowl.n.01,soup_bowl,a bowl for serving soup,0,0,r
+988,soupspoon.n.01,soupspoon,a spoon with a rounded bowl for eating soup,12,7,c
+989,sour_cream.n.01,sour_cream|soured_cream,soured light cream,3,3,c
+990,soya_milk.n.01,soya_milk|soybean_milk|soymilk,a milk substitute containing soybean flour and water; used in some infant formulas and in making tofu,0,0,r
+991,space_shuttle.n.01,space_shuttle,a reusable spacecraft with wings for a controlled descent through the Earth's atmosphere,2,2,r
+992,sparkler.n.02,sparkler_(fireworks),a firework that burns slowly and throws out a shower of sparks,3,1,r
+993,spatula.n.02,spatula,a hand tool with a thin flexible blade used to mix or spread soft substances,116,65,f
+994,spear.n.01,spear|lance,a long pointed rod used as a tool or weapon,2,1,r
+995,spectacles.n.01,spectacles|specs|eyeglasses|glasses,optical instrument consisting of a frame that holds a pair of lenses for correcting defective vision,518,334,f
+996,spice_rack.n.01,spice_rack,a rack for displaying containers filled with spices,14,11,c
+997,spider.n.01,spider,"predatory arachnid with eight legs, two poison fangs, two feelers, and usually two silk-spinning organs at the back end of the body",1,1,c
+998,spiny_lobster.n.02,crawfish|crayfish,large edible marine crustacean having a spiny carapace but lacking the large pincers of true lobsters,0,0,r
+999,sponge.n.01,sponge,a porous mass usable to absorb water typically used for cleaning,18,13,c
+1000,spoon.n.01,spoon,a piece of cutlery with a shallow bowl-shaped container and a handle,426,227,f
+1001,sportswear.n.01,sportswear|athletic_wear|activewear,attire worn for sport or for casual wear,2,1,c
+1002,spotlight.n.02,spotlight,a lamp that produces a strong beam of light to illuminate a restricted area; used to focus attention of a stage performer,71,11,c
+1003,squid.n.01,squid_(food)|calamari|calamary,(Italian cuisine) squid prepared as food,0,0,r
+1004,squirrel.n.01,squirrel,a kind of arboreal rodent having a long bushy tail,2,2,c
+1005,stagecoach.n.01,stagecoach,a large coach-and-four formerly used to carry passengers and mail on regular routes between towns,0,0,r
+1006,stapler.n.01,stapler_(stapling_machine),a machine that inserts staples into sheets of paper in order to fasten them together,8,8,c
+1007,starfish.n.01,starfish|sea_star,echinoderms characterized by five arms extending from a central disk,2,2,c
+1008,statue.n.01,statue_(sculpture),a sculpture representing a human or animal,428,119,f
+1009,steak.n.01,steak_(food),a slice of meat cut from the fleshy part of an animal or large fish,20,14,c
+1010,steak_knife.n.01,steak_knife,a sharp table knife used in eating steak,0,0,r
+1011,steering_wheel.n.01,steering_wheel,a handwheel that is used for steering,155,125,f
+1012,step_ladder.n.01,stepladder,a folding portable ladder hinged at the top,5,5,r
+1013,step_stool.n.01,step_stool,a stool that has one or two steps that fold under the seat,6,5,c
+1014,stereo.n.01,stereo_(sound_system),electronic device for playing audio,19,13,c
+1015,stew.n.02,stew,food prepared by stewing especially meat or fish with vegetables,0,0,r
+1016,stirrer.n.02,stirrer,an implement used for stirring,5,4,r
+1017,stirrup.n.01,stirrup,support consisting of metal loops into which rider's feet go,83,48,f
+1018,stool.n.01,stool,a simple seat without a back or arms,128,63,f
+1019,stop_sign.n.01,stop_sign,a traffic sign to notify drivers that they must come to a complete stop,216,170,f
+1020,stoplight.n.01,brake_light,a red light on the rear of a motor vehicle that signals when the brakes are applied,210,45,f
+1021,stove.n.01,stove|kitchen_stove|range_(kitchen_appliance)|kitchen_range|cooking_stove,a kitchen appliance used for cooking food,230,209,f
+1022,strainer.n.01,strainer,a filter to retain larger pieces while smaller pieces and liquids pass through,20,13,c
+1023,strap.n.01,strap,an elongated strip of material for binding things together or holding,1026,278,f
+1024,straw.n.04,straw_(for_drinking)|drinking_straw,a thin paper or plastic tube used to suck liquids into the mouth,226,116,f
+1025,strawberry.n.01,strawberry,sweet fleshy red fruit,864,72,f
+1026,street_sign.n.01,street_sign,a sign visible from the street,1628,367,f
+1027,streetlight.n.01,streetlight|street_lamp,a lamp supported on a lamppost; for illuminating a street,1606,369,f
+1028,string_cheese.n.01,string_cheese,cheese formed in long strings twisted together,1,1,r
+1029,stylus.n.02,stylus,"a pointed tool for writing or drawing or engraving, including pens",0,0,r
+1030,subwoofer.n.01,subwoofer,a loudspeaker that is designed to reproduce very low bass frequencies,3,3,r
+1031,sugar_bowl.n.01,sugar_bowl,a dish in which sugar is served,4,4,r
+1032,sugarcane.n.01,sugarcane_(plant),juicy canes whose sap is a source of molasses and commercial sugar; fresh canes are sometimes chewed for the juice,0,0,r
+1033,suit.n.01,suit_(clothing),a set of garments (usually including a jacket and trousers or skirt) for outerwear all of the same fabric and color,51,18,f
+1034,sunflower.n.01,sunflower,any plant of the genus Helianthus having large flower heads with dark disk florets and showy yellow rays,86,17,c
+1035,sunglasses.n.01,sunglasses,spectacles that are darkened or polarized to protect the eyes from the glare of the sun,1488,384,f
+1036,sunhat.n.01,sunhat,a hat with a broad brim that protects the face from direct exposure to the sun,48,14,c
+1037,surfboard.n.01,surfboard,a narrow buoyant board for riding surf,707,355,f
+1038,sushi.n.01,sushi,rice (with raw fish) wrapped in seaweed,36,4,c
+1039,swab.n.02,mop,cleaning implement consisting of absorbent material fastened to a handle; for cleaning floors,11,8,c
+1040,sweat_pants.n.01,sweat_pants,loose-fitting trousers with elastic cuffs; worn by athletes,7,5,c
+1041,sweatband.n.02,sweatband,a band of material tied around the forehead or wrist to absorb sweat,37,17,c
+1042,sweater.n.01,sweater,a crocheted or knitted garment covering the upper part of the body,365,193,f
+1043,sweatshirt.n.01,sweatshirt,cotton knit pullover with long sleeves worn during athletic activity,258,115,f
+1044,sweet_potato.n.02,sweet_potato,the edible tuberous root of the sweet potato vine,23,5,c
+1045,swimsuit.n.01,swimsuit|swimwear|bathing_suit|swimming_costume|bathing_costume|swimming_trunks|bathing_trunks,garment worn for swimming,485,129,f
+1046,sword.n.01,sword,a cutting or thrusting weapon that has a long metal blade,14,11,c
+1047,syringe.n.01,syringe,a medical instrument used to inject or withdraw fluids,1,1,r
+1048,tabasco.n.02,Tabasco_sauce,very spicy sauce (trade name Tabasco) made from fully-aged red peppers,1,1,r
+1049,table-tennis_table.n.01,table-tennis_table|ping-pong_table,a table used for playing table tennis,3,2,r
+1050,table.n.02,table,a piece of furniture having a smooth flat top that is usually supported by one or more vertical legs,595,371,f
+1051,table_lamp.n.01,table_lamp,a lamp that sits on a table,20,12,c
+1052,tablecloth.n.01,tablecloth,a covering spread over a dining table,501,311,f
+1053,tachometer.n.01,tachometer,measuring instrument for indicating speed of rotation,3,1,r
+1054,taco.n.02,taco,a small tortilla cupped around a filling,0,0,r
+1055,tag.n.02,tag,a label associated with something for the purpose of identification or information,1186,263,f
+1056,taillight.n.01,taillight|rear_light,lamp (usually red) mounted at the rear of a motor vehicle,1637,352,f
+1057,tambourine.n.01,tambourine,a shallow drum with a single drumhead and with metallic disks in the sides,1,1,r
+1058,tank.n.01,army_tank|armored_combat_vehicle|armoured_combat_vehicle,an enclosed armored military vehicle; has a cannon and moves on caterpillar treads,0,0,r
+1059,tank.n.02,tank_(storage_vessel)|storage_tank,a large (usually metallic) vessel for holding gases or liquids,65,20,f
+1060,tank_top.n.01,tank_top_(clothing),a tight-fitting sleeveless shirt with wide shoulder straps and low neck and no front opening,337,209,f
+1061,tape.n.01,tape_(sticky_cloth_or_paper),a long thin piece of cloth or paper as used for binding or fastening,42,22,f
+1062,tape.n.04,tape_measure|measuring_tape,measuring instrument consisting of a narrow strip (cloth or metal) marked in inches or centimeters and used for measuring lengths,7,7,c
+1063,tapestry.n.02,tapestry,a heavy textile with a woven design; used for curtains and upholstery,9,4,c
+1064,tarpaulin.n.01,tarp,waterproofed canvas,204,89,f
+1065,tartan.n.01,tartan|plaid,a cloth having a crisscross design,14,4,c
+1066,tassel.n.01,tassel,adornment consisting of a bunch of cords fastened at one end,34,11,c
+1067,tea_bag.n.01,tea_bag,a measured amount of tea in a bag for an individual serving of tea,4,2,c
+1068,teacup.n.02,teacup,a cup from which tea is drunk,35,9,c
+1069,teakettle.n.01,teakettle,kettle for boiling water to make tea,4,4,c
+1070,teapot.n.01,teapot,pot for brewing tea; usually has a spout and handle,38,25,f
+1071,teddy.n.01,teddy_bear,plaything consisting of a child's toy bear (usually plush and stuffed with soft materials),1029,301,f
+1072,telephone.n.01,telephone|phone|telephone_set,electronic device for communicating by voice over long distances (includes wired and wireless/cell phones),203,176,f
+1073,telephone_booth.n.01,telephone_booth|phone_booth|call_box|telephone_box|telephone_kiosk,booth for using a telephone,10,8,c
+1074,telephone_pole.n.01,telephone_pole|telegraph_pole|telegraph_post,tall pole supporting telephone wires,663,183,f
+1075,telephoto_lens.n.01,telephoto_lens|zoom_lens,a camera lens that magnifies the image,0,0,r
+1076,television_camera.n.01,television_camera|tv_camera,television equipment for capturing and recording video,7,4,c
+1077,television_receiver.n.01,television_set|tv|tv_set,an electronic device that receives television signals and displays them on a screen,397,369,f
+1078,tennis_ball.n.01,tennis_ball,ball about the size of a fist used in playing tennis,448,253,f
+1079,tennis_racket.n.01,tennis_racket,a racket used to play tennis,576,387,f
+1080,tequila.n.01,tequila,Mexican liquor made from fermented juices of an agave plant,0,0,r
+1081,thermometer.n.01,thermometer,measuring instrument for measuring temperature,5,5,c
+1082,thermos.n.01,thermos_bottle,vacuum flask that preserves temperature of hot or cold drinks,7,7,c
+1083,thermostat.n.01,thermostat,a regulator for automatically regulating temperature by starting or stopping the supply of heat,25,25,f
+1084,thimble.n.02,thimble,a small metal cap to protect the finger while sewing; can be used as a small container,0,0,r
+1085,thread.n.01,thread|yarn,a fine cord of twisted fibers (of cotton or silk or wool or nylon etc.) used in sewing and weaving,62,13,c
+1086,thumbtack.n.01,thumbtack|drawing_pin|pushpin,a tack for attaching papers to a bulletin board or drawing board,20,3,c
+1087,tiara.n.01,tiara,a jeweled headdress worn by women on formal occasions,10,5,c
+1088,tiger.n.02,tiger,large feline of forests in most of Asia having a tawny coat with black stripes,10,7,c
+1089,tights.n.01,tights_(clothing)|leotards,skintight knit hose covering the body from the waist to the feet worn by acrobats and dancers and as stockings by women and girls,13,10,c
+1090,timer.n.01,timer|stopwatch,a timepiece that measures a time interval and signals its end,15,11,c
+1091,tinfoil.n.01,tinfoil,foil made of tin or an alloy of tin and lead,82,59,f
+1092,tinsel.n.01,tinsel,a showy decoration that is basically valueless,6,5,c
+1093,tissue.n.02,tissue_paper,a soft thin (usually translucent) paper,84,48,f
+1094,toast.n.01,toast_(food),slice of bread that has been toasted,36,13,c
+1095,toaster.n.02,toaster,a kitchen appliance (usually electric) for toasting bread,69,54,f
+1096,toaster_oven.n.01,toaster_oven,kitchen appliance consisting of a small electric oven for toasting or warming food,13,13,f
+1097,toilet.n.02,toilet,a plumbing fixture for defecation and urination,629,357,f
+1098,toilet_tissue.n.01,toilet_tissue|toilet_paper|bathroom_tissue,a soft thin absorbent paper for use in toilets,349,212,f
+1099,tomato.n.01,tomato,mildly acid red or yellow pulpy fruit eaten as a vegetable,2107,248,f
+1100,tongs.n.01,tongs,any of various devices for taking hold of objects; usually have two hinged legs with handles above and pointed hooks below,44,26,f
+1101,toolbox.n.01,toolbox,a box or chest or cabinet for holding hand tools,7,7,c
+1102,toothbrush.n.01,toothbrush,small brush; has long handle; used to clean teeth,276,139,f
+1103,toothpaste.n.01,toothpaste,a dentifrice in the form of a paste,50,35,f
+1104,toothpick.n.01,toothpick,pick consisting of a small strip of wood or plastic; used to pick food from between the teeth,101,21,f
+1105,top.n.09,cover,covering for a hole (especially a hole in the top of a container),49,25,f
+1106,tortilla.n.01,tortilla,thin unleavened pancake made from cornmeal or wheat flour,11,4,c
+1107,tow_truck.n.01,tow_truck,a truck equipped to hoist and pull wrecked cars (or to remove cars from no-parking zones),4,4,c
+1108,towel.n.01,towel,a rectangular piece of absorbent cloth (or paper) for drying or wiping,427,118,f
+1109,towel_rack.n.01,towel_rack|towel_rail|towel_bar,a rack consisting of one or more bars on which towels can be hung,191,112,f
+1110,toy.n.03,toy,a device regarded as providing amusement,943,213,f
+1111,tractor.n.01,tractor_(farm_equipment),a wheeled vehicle with large wheels; used in farming and other applications,15,11,c
+1112,traffic_light.n.01,traffic_light,a device to control vehicle traffic often consisting of three or more lights,1551,397,f
+1113,trail_bike.n.01,dirt_bike,a lightweight motorcycle equipped with rugged tires and suspension for off-road use,9,6,c
+1114,trailer_truck.n.01,trailer_truck|tractor_trailer|trucking_rig|articulated_lorry|semi_truck,a truck consisting of a tractor and trailer together,72,27,f
+1115,train.n.01,train_(railroad_vehicle)|railroad_train,public or private transport provided by a line of railway cars coupled together and drawn by a locomotive,506,351,f
+1116,trampoline.n.01,trampoline,gymnastic apparatus consisting of a strong canvas sheet attached with springs to a metal frame,4,3,r
+1117,tray.n.01,tray,an open receptacle for holding or displaying or serving articles or food,472,154,f
+1118,trench_coat.n.01,trench_coat,a military style raincoat; belted with deep pockets,1,1,r
+1119,triangle.n.05,triangle_(musical_instrument),a percussion instrument consisting of a metal bar bent in the shape of an open triangle,0,0,r
+1120,tricycle.n.01,tricycle,a vehicle with three wheels that is moved by foot pedals,7,5,c
+1121,tripod.n.01,tripod,a three-legged rack used for support,24,21,f
+1122,trouser.n.01,trousers|pants_(clothing),"a garment extending from the waist to the knee or ankle, covering each leg separately",1416,390,f
+1123,truck.n.01,truck,an automotive vehicle suitable for hauling,343,185,f
+1124,truffle.n.03,truffle_(chocolate)|chocolate_truffle,creamy chocolate candy,0,0,r
+1125,trunk.n.02,trunk,luggage consisting of a large strong case used when traveling or for storage,141,10,c
+1126,tub.n.02,vat,a large vessel for holding or storing liquids,0,0,r
+1127,turban.n.01,turban,a traditional headdress consisting of a long scarf wrapped around the head,35,5,c
+1128,turkey.n.04,turkey_(food),flesh of large domesticated fowl usually roasted,9,8,c
+1129,turnip.n.01,turnip,widely cultivated plant having a large fleshy edible white or yellow root,20,2,r
+1130,turtle.n.02,turtle,any of various aquatic and land reptiles having a bony shell and flipper-like limbs for swimming,5,5,c
+1131,turtleneck.n.01,turtleneck_(clothing)|polo-neck,a sweater or jersey with a high close-fitting collar,1,1,c
+1132,typewriter.n.01,typewriter,hand-operated character printer for printing written messages one character at a time,2,2,c
+1133,umbrella.n.01,umbrella,a lightweight handheld collapsible canopy,1777,397,f
+1134,underwear.n.01,underwear|underclothes|underclothing|underpants,undergarment worn next to the skin and under the outer garments,13,11,f
+1135,unicycle.n.01,unicycle,a vehicle with a single wheel that is driven by pedals,0,0,r
+1136,urinal.n.01,urinal,a plumbing fixture (usually attached to the wall) used by men to urinate,237,39,f
+1137,urn.n.01,urn,a large vase that usually has a pedestal or feet,5,2,c
+1138,vacuum.n.04,vacuum_cleaner,an electrical home appliance that cleans by suction,13,11,c
+1139,vase.n.01,vase,an open jar of glass or porcelain used as an ornament or to hold flowers,1055,388,f
+1140,vending_machine.n.01,vending_machine,a slot machine for selling goods,23,12,c
+1141,vent.n.01,vent|blowhole|air_vent,a hole for the escape of gas or air,583,272,f
+1142,vest.n.01,vest|waistcoat,a man's sleeveless garment worn underneath a coat,160,94,f
+1143,videotape.n.01,videotape,a video recording made on magnetic tape,38,2,c
+1144,vinegar.n.01,vinegar,sour-tasting liquid produced usually by oxidation of the alcohol in wine or cider and used as a condiment or food preservative,3,3,r
+1145,violin.n.01,violin|fiddle,bowed stringed instrument that is the highest member of the violin family,4,2,r
+1146,vodka.n.01,vodka,unaged colorless liquor originating in Russia,0,0,r
+1147,volleyball.n.02,volleyball,an inflated ball used in playing volleyball,9,3,c
+1148,vulture.n.01,vulture,any of various large birds of prey having naked heads and weak claws and feeding chiefly on carrion,5,1,r
+1149,waffle.n.01,waffle,pancake batter baked in a waffle iron,22,11,c
+1150,waffle_iron.n.01,waffle_iron,a kitchen appliance for baking waffles,1,1,r
+1151,wagon.n.01,wagon,any of various kinds of wheeled vehicles drawn by an animal or a tractor,19,9,c
+1152,wagon_wheel.n.01,wagon_wheel,a wheel of a wagon,54,9,c
+1153,walking_stick.n.01,walking_stick,a stick carried in the hand for support in walking,4,4,c
+1154,wall_clock.n.01,wall_clock,a clock mounted on a wall,19,16,c
+1155,wall_socket.n.01,wall_socket|wall_plug|electric_outlet|electrical_outlet|outlet|electric_receptacle,receptacle providing a place in a wiring system where current can be taken to run electrical devices,620,361,f
+1156,wallet.n.01,wallet|billfold,a pocket-size case for holding papers and paper money,29,24,f
+1157,walrus.n.01,walrus,either of two large northern marine mammals having ivory tusks and tough hide over thick blubber,0,0,r
+1158,wardrobe.n.01,wardrobe,a tall piece of furniture that provides storage space for clothes; has a door and rails or hooks for hanging clothes,0,0,r
+1159,washbasin.n.01,washbasin|basin_(for_washing)|washbowl|washstand|handbasin,a bathroom sink that is permanently installed and connected to a water supply and drainpipe; where you can wash your hands and face,2,2,r
+1160,washer.n.03,automatic_washer|washing_machine,a home appliance for washing clothes and linens automatically,10,10,c
+1161,watch.n.01,watch|wristwatch,"a small, portable timepiece",551,368,f
+1162,water_bottle.n.01,water_bottle,a bottle for holding water,281,141,f
+1163,water_cooler.n.01,water_cooler,a device for cooling and dispensing drinking water,12,9,c
+1164,water_faucet.n.01,water_faucet|water_tap|tap_(water_faucet),a faucet for drawing water from a pipe or cask,20,15,c
+1165,water_heater.n.01,water_heater|hot-water_heater,a heater and storage tank to supply heated water,2,2,r
+1166,water_jug.n.01,water_jug,a jug that holds water,4,2,c
+1167,water_pistol.n.01,water_gun|squirt_gun,plaything consisting of a toy pistol that squirts water,0,0,r
+1168,water_scooter.n.01,water_scooter|sea_scooter|jet_ski,a motorboat resembling a motor scooter (NOT A SURFBOARD OR WATER SKI),7,3,c
+1169,water_ski.n.01,water_ski,broad ski for skimming over water towed by a speedboat (DO NOT MARK WATER),7,5,c
+1170,water_tower.n.01,water_tower,a large reservoir for water,13,10,c
+1171,watering_can.n.01,watering_can,a container with a handle and a spout with a perforated nozzle; used to sprinkle water over plants,5,5,c
+1172,watermelon.n.02,watermelon,large oblong or roundish melon with a hard green rind and sweet watery red or occasionally yellowish pulp,99,18,f
+1173,weathervane.n.01,weathervane|vane_(weathervane)|wind_vane,mechanical device attached to an elevated structure; rotates freely to show the direction of the wind,50,39,f
+1174,webcam.n.01,webcam,a digital camera designed to take digital photographs and transmit them over the internet,13,11,c
+1175,wedding_cake.n.01,wedding_cake|bridecake,a rich cake with two or more tiers and covered with frosting and decorations; served at a wedding reception,20,19,c
+1176,wedding_ring.n.01,wedding_ring|wedding_band,a ring given to the bride and/or groom at the wedding,8,6,c
+1177,wet_suit.n.01,wet_suit,a close-fitting garment made of a permeable material; worn in cold water to retain body heat,443,252,f
+1178,wheel.n.01,wheel,a circular frame with spokes (or a solid disc) that can rotate on a shaft or axle,2265,375,f
+1179,wheelchair.n.01,wheelchair,a movable chair mounted on large wheels,13,10,c
+1180,whipped_cream.n.01,whipped_cream,cream that has been beaten until light and fluffy,21,12,c
+1181,whistle.n.03,whistle,a small wind instrument that produces a whistling sound by blowing into it,1,1,c
+1182,wig.n.01,wig,hairpiece covering the head and made of real or synthetic hair,11,8,c
+1183,wind_chime.n.01,wind_chime,a decorative arrangement of pieces of metal or glass or pottery that hang together loosely so the wind can cause them to tinkle,2,2,c
+1184,windmill.n.01,windmill,A mill or turbine that is powered by wind,5,4,c
+1185,window_box.n.01,window_box_(for_plants),a container for growing plants on a windowsill,25,14,c
+1186,windshield_wiper.n.01,windshield_wiper|windscreen_wiper|wiper_(for_windshield/screen),a mechanical device that cleans the windshield,791,297,f
+1187,windsock.n.01,windsock|air_sock|air-sleeve|wind_sleeve|wind_cone,a truncated cloth cone mounted on a mast/pole; shows wind direction,6,6,c
+1188,wine_bottle.n.01,wine_bottle,a bottle for holding wine,762,119,f
+1189,wine_bucket.n.01,wine_bucket|wine_cooler,a bucket of ice used to chill a bottle of wine,9,5,c
+1190,wineglass.n.01,wineglass,a glass that has a stem and in which wine is served,911,197,f
+1191,winker.n.02,blinder_(for_horses),blinds that prevent a horse from seeing something on either side,49,21,f
+1192,wok.n.01,wok,pan with a convex bottom; used for frying in Chinese cooking,8,5,c
+1193,wolf.n.01,wolf,"a wild carnivorous mammal of the dog family, living and hunting in packs",5,2,r
+1194,wooden_spoon.n.02,wooden_spoon,a spoon made of wood,20,13,c
+1195,wreath.n.01,wreath,"an arrangement of flowers, leaves, or stems fastened in a ring",21,14,c
+1196,wrench.n.03,wrench|spanner,a hand tool that is used to hold or twist a nut or bolt,80,14,c
+1197,wristband.n.01,wristband,band consisting of a part of a sleeve that covers the wrist,42,25,f
+1198,wristlet.n.01,wristlet|wrist_band,a band or bracelet worn around the wrist,261,128,f
+1199,yacht.n.01,yacht,an expensive vessel propelled by sail or power and used for cruising or racing,0,0,c
+1200,yogurt.n.01,yogurt|yoghurt|yoghourt,a custard-like food made from curdled milk,9,7,c
+1201,yoke.n.07,yoke_(animal_equipment),gear joining two animals at the neck; NOT egg yolk,4,3,c
+1202,zebra.n.01,zebra,any of several fleet black-and-white striped African equines,1037,325,f
+1203,zucchini.n.02,zucchini|courgette,small cucumber-shaped vegetable marrow; typically dark green,178,17,c
