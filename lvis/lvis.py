@@ -16,6 +16,8 @@ import pycocotools.mask as mask_utils
 
 import csv
 
+import requests
+
 
 class LVIS:
     def __init__(self, annotation_path):
@@ -209,6 +211,141 @@ class LVIS:
             f"Wrote {len(relevant_annotations)} annotations to '{csv_file_path}'.")
 
 
+    def get_image_ids(self, category_id):
+        # 1) Identify all image_ids containing this category
+        image_ids_for_category = set()
+        for ann in self.dataset['annotations']:
+            if ann['category_id'] == category_id:
+                image_ids_for_category.add(ann['image_id'])
+        return image_ids_for_category
+
+    def get_annotations(self, category_id, image_ids_for_category):
+        # 2) Collect annotations that match both the category and the image_ids
+        relevant_annotations = []
+        for ann in self.dataset['annotations']:
+            if (ann['image_id'] in image_ids_for_category) and (ann['category_id'] == category_id):
+                relevant_annotations.append(ann)
+        # Group annotations by their image_id for easy lookup
+        image_id_to_annotations = defaultdict(list)
+        for ann in relevant_annotations:
+            image_id_to_annotations[ann['image_id']].append(ann)
+        return image_id_to_annotations
+
+    
+    
+    def download_images_for_category(self, images_folder_path, category_id):
+        """
+        1) Gather all image IDs that have annotations for the specified category_id.
+        2) Download the images of those annotations to the specified images folder path.
+
+        Args:
+            images_folder_path (str): The directory to save the images.
+            category_id (int): The category ID to filter on.
+        """
+
+        # Ensure output directories exist
+        os.makedirs(images_folder_path, exist_ok=True)
+        # os.makedirs(labels_folder_path, exist_ok=True)
+
+        # 1) Identify all image_ids containing this category
+        image_ids_for_category = set()
+        image_ids_for_category = self.get_image_ids(category_id)
+
+        # 2) Collect annotations that match both the category and the image_ids
+        # Group annotations by their image_id for easy lookup
+        # image_id_to_annotations = defaultdict(list)
+        # image_id_to_annotations = self.get_annotations(category_id, image_ids_for_category)
+
+        # 3) Download each image
+        self.download(images_folder_path, image_ids_for_category)
+        
+        print(f"Downloaded images for category_id={category_id}.\n"
+            f"Images in: {images_folder_path}\n")
+        # print(f"Downloaded images and created YOLO labels for category_id={category_id}.\n"
+        #     f"Images in: {images_folder_path}\nLabels in: {labels_folder_path}")
+
+
+    def download_and_export_labels(self, image_ids_for_category, image_id_to_annotations):
+        """
+        1) Gather all image IDs that have annotations for the specified category_id.
+        2) From those images, collect only the annotations that match the same category_id.
+        3) Download the images of those annotations to the specified images folder path.
+        4) Label the images in YOLO format, exporting one *.txt file per image (if no objects in image, no *.txt file).
+        Format: class x_center y_center width height
+        - Box coordinates must be in normalized xywh.
+        - Class numbers are zero-indexed (start from 0).
+
+        Args:
+            category_id (int): The category ID to filter on.
+            images_folder_path (str): The directory to save the images.
+            labels_folder_path (str): The directory to save the YOLO label files.
+        """
+        # 3) Download each image and 4) export YOLO labels
+        for image_id in image_ids_for_category:
+            # Find the image info from self.dataset['images']
+            image_info = next((img for img in self.dataset['images'] if img['id'] == image_id), None)
+            if not image_info:
+                continue
+
+            coco_url = image_info.get('coco_url', None)
+            # Use the original file_name or fall back to something like f"{image_id}.jpg"
+            file_name = image_info.get('file_name', f"{image_id}.jpg")
+            img_width = image_info.get('width', None)
+            img_height = image_info.get('height', None)
+
+            # If missing critical info, skip
+            if not (coco_url and img_width and img_height):
+                continue
+
+            # Download the image
+            try:
+                response = requests.get(coco_url, timeout=15)
+                if response.status_code != 200:
+                    print(f"Warning: Failed to download image {image_id} from {coco_url}")
+                    continue
+            except requests.exceptions.RequestException as e:
+                print(f"Warning: Request error for image {image_id}: {e}")
+                continue
+
+            # Save the image file
+            image_path = os.path.join(images_folder_path, file_name)
+            with open(image_path, 'wb') as img_file:
+                img_file.write(response.content)
+
+            # Gather bounding boxes for this image
+            annotations_for_image = image_id_to_annotations[image_id]
+
+            # If no bounding boxes for this category, do not create a label file
+            if not annotations_for_image:
+                continue
+
+            # Construct the label file path (same base name, .txt extension)
+            label_file_name = os.path.splitext(file_name)[0] + ".txt"
+            label_file_path = os.path.join(labels_folder_path, label_file_name)
+
+            with open(label_file_path, 'w') as label_file:
+                for ann in annotations_for_image:
+                    # 'bbox' is typically [x, y, width, height] in pixel coordinates
+                    bbox = ann.get('bbox', None)
+                    if not bbox or len(bbox) != 4:
+                        continue
+
+                    x, y, w, h = bbox
+
+                    # Convert to YOLO-style normalized coordinates
+                    x_center = (x + w / 2.0) / img_width
+                    y_center = (y + h / 2.0) / img_height
+                    w_norm = w / img_width
+                    h_norm = h / img_height
+
+                    # Categories are zero-indexed
+                    class_idx = category_index
+
+                    # Write one line per bounding box
+                    # Format as floats; you can refine precision as needed
+                    label_file.write(f"{class_idx} {x_center:.6f} {y_center:.6f} {w_norm:.6f} {h_norm:.6f}\n")
+
+    
     def get_cat_ids(self):
         """Get all category ids.
 

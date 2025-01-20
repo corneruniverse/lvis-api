@@ -7,7 +7,7 @@ lvis.egg-info/
 build/*
 # LVIS Dataset / instances/ images
 dataset/
-
+lvis/test
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
