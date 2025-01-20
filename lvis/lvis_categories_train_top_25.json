@@ -1,0 +1,324 @@
+[
+    {
+        "name": "tennis_racket",
+        "instance_count": 3035,
+        "def": "a racket used to play tennis",
+        "synonyms": [
+            "tennis_racket"
+        ],
+        "image_count": 1977,
+        "id": 1079,
+        "frequency": "f",
+        "synset": "tennis_racket.n.01"
+    },
+    {
+        "name": "short_pants",
+        "instance_count": 5305,
+        "def": "trousers that end at or above the knee",
+        "synonyms": [
+            "short_pants",
+            "shorts_(clothing)",
+            "trunks_(clothing)"
+        ],
+        "image_count": 1969,
+        "id": 951,
+        "frequency": "f",
+        "synset": "short_pants.n.01"
+    },
+    {
+        "name": "spectacles",
+        "instance_count": 3040,
+        "def": "optical instrument consisting of a frame that holds a pair of lenses for correcting defective vision",
+        "synonyms": [
+            "spectacles",
+            "specs",
+            "eyeglasses",
+            "glasses"
+        ],
+        "image_count": 1969,
+        "id": 995,
+        "frequency": "f",
+        "synset": "spectacles.n.01"
+    },
+    {
+        "name": "ski_pole",
+        "instance_count": 8263,
+        "def": "a pole with metal points used as an aid in skiing",
+        "synonyms": [
+            "ski_pole"
+        ],
+        "image_count": 1968,
+        "id": 967,
+        "frequency": "f",
+        "synset": "ski_pole.n.01"
+    },
+    {
+        "name": "skateboard",
+        "instance_count": 3597,
+        "def": "a board with wheels that is ridden in a standing or crouching position and propelled by foot",
+        "synonyms": [
+            "skateboard"
+        ],
+        "image_count": 1967,
+        "id": 962,
+        "frequency": "f",
+        "synset": "skateboard.n.01"
+    },
+    {
+        "name": "jersey",
+        "instance_count": 8117,
+        "def": "a close-fitting pullover shirt",
+        "synonyms": [
+            "jersey",
+            "T-shirt",
+            "tee_shirt"
+        ],
+        "image_count": 1945,
+        "id": 595,
+        "frequency": "f",
+        "synset": "jersey.n.03"
+    },
+    {
+        "name": "sock",
+        "instance_count": 6866,
+        "def": "cloth covering for the foot; worn inside the shoe; reaches to between the ankle and the knee",
+        "synonyms": [
+            "sock"
+        ],
+        "image_count": 1945,
+        "id": 981,
+        "frequency": "f",
+        "synset": "sock.n.01"
+    },
+    {
+        "name": "drawer",
+        "instance_count": 7927,
+        "def": "a boxlike container in a piece of furniture; made so as to slide in and out",
+        "synonyms": [
+            "drawer"
+        ],
+        "image_count": 1942,
+        "id": 390,
+        "frequency": "f",
+        "synset": "drawer.n.01"
+    },
+    {
+        "name": "shirt",
+        "instance_count": 10177,
+        "def": "a garment worn on the upper half of the body",
+        "synonyms": [
+            "shirt"
+        ],
+        "image_count": 1942,
+        "id": 947,
+        "frequency": "f",
+        "synset": "shirt.n.01"
+    },
+    {
+        "name": "belt",
+        "instance_count": 3683,
+        "def": "a band to tie or buckle around the body (usually at the waist)",
+        "synonyms": [
+            "belt"
+        ],
+        "image_count": 1941,
+        "id": 88,
+        "frequency": "f",
+        "synset": "belt.n.02"
+    },
+    {
+        "name": "necktie",
+        "instance_count": 4069,
+        "def": "neckwear consisting of a long narrow piece of material worn under a collar and tied in knot at the front",
+        "synonyms": [
+            "necktie",
+            "tie_(necktie)"
+        ],
+        "image_count": 1940,
+        "id": 716,
+        "frequency": "f",
+        "synset": "necktie.n.01"
+    },
+    {
+        "name": "dog",
+        "instance_count": 2684,
+        "def": "a common domesticated dog",
+        "synonyms": [
+            "dog"
+        ],
+        "image_count": 1938,
+        "id": 378,
+        "frequency": "f",
+        "synset": "dog.n.01"
+    },
+    {
+        "name": "baseball_cap",
+        "instance_count": 9028,
+        "def": "a cap with a bill",
+        "synonyms": [
+            "baseball_cap",
+            "jockey_cap",
+            "golf_cap"
+        ],
+        "image_count": 1934,
+        "id": 59,
+        "frequency": "f",
+        "synset": "baseball_cap.n.01"
+    },
+    {
+        "name": "hat",
+        "instance_count": 7213,
+        "def": "headwear that protects the head from bad weather, sun, or worn for fashion",
+        "synonyms": [
+            "hat"
+        ],
+        "image_count": 1932,
+        "id": 544,
+        "frequency": "f",
+        "synset": "hat.n.01"
+    },
+    {
+        "name": "plate",
+        "instance_count": 5214,
+        "def": "dish on which food is served or from which food is eaten",
+        "synonyms": [
+            "plate"
+        ],
+        "image_count": 1932,
+        "id": 818,
+        "frequency": "f",
+        "synset": "plate.n.04"
+    },
+    {
+        "name": "sunglasses",
+        "instance_count": 5603,
+        "def": "spectacles that are darkened or polarized to protect the eyes from the glare of the sun",
+        "synonyms": [
+            "sunglasses"
+        ],
+        "image_count": 1931,
+        "id": 1035,
+        "frequency": "f",
+        "synset": "sunglasses.n.01"
+    },
+    {
+        "name": "person",
+        "instance_count": 13439,
+        "def": "a human being",
+        "synonyms": [
+            "person",
+            "baby",
+            "child",
+            "boy",
+            "girl",
+            "man",
+            "woman",
+            "human"
+        ],
+        "image_count": 1928,
+        "id": 793,
+        "frequency": "f",
+        "synset": "person.n.01"
+    },
+    {
+        "name": "chair",
+        "instance_count": 11549,
+        "def": "a seat for one person, with a support for the back",
+        "synonyms": [
+            "chair"
+        ],
+        "image_count": 1927,
+        "id": 232,
+        "frequency": "f",
+        "synset": "chair.n.01"
+    },
+    {
+        "name": "jean",
+        "instance_count": 5421,
+        "def": "(usually plural) close-fitting trousers of heavy denim for manual work or casual wear",
+        "synonyms": [
+            "jean",
+            "blue_jean",
+            "denim"
+        ],
+        "image_count": 1927,
+        "id": 592,
+        "frequency": "f",
+        "synset": "jean.n.01"
+    },
+    {
+        "name": "car_(automobile)",
+        "instance_count": 10528,
+        "def": "a motor vehicle with four wheels",
+        "synonyms": [
+            "car_(automobile)",
+            "auto_(automobile)",
+            "automobile"
+        ],
+        "image_count": 1926,
+        "id": 207,
+        "frequency": "f",
+        "synset": "car.n.01"
+    },
+    {
+        "name": "ski",
+        "instance_count": 8496,
+        "def": "sports equipment for skiing on snow",
+        "synonyms": [
+            "ski"
+        ],
+        "image_count": 1926,
+        "id": 964,
+        "frequency": "f",
+        "synset": "ski.n.01"
+    },
+    {
+        "name": "toilet",
+        "instance_count": 2295,
+        "def": "a plumbing fixture for defecation and urination",
+        "synonyms": [
+            "toilet"
+        ],
+        "image_count": 1925,
+        "id": 1097,
+        "frequency": "f",
+        "synset": "toilet.n.02"
+    },
+    {
+        "name": "umbrella",
+        "instance_count": 9161,
+        "def": "a lightweight handheld collapsible canopy",
+        "synonyms": [
+            "umbrella"
+        ],
+        "image_count": 1924,
+        "id": 1133,
+        "frequency": "f",
+        "synset": "umbrella.n.01"
+    },
+    {
+        "name": "wheel",
+        "instance_count": 11272,
+        "def": "a circular frame with spokes (or a solid disc) that can rotate on a shaft or axle",
+        "synonyms": [
+            "wheel"
+        ],
+        "image_count": 1924,
+        "id": 1178,
+        "frequency": "f",
+        "synset": "wheel.n.01"
+    },
+    {
+        "name": "watch",
+        "instance_count": 2703,
+        "def": "a small, portable timepiece",
+        "synonyms": [
+            "watch",
+            "wristwatch"
+        ],
+        "image_count": 1923,
+        "id": 1161,
+        "frequency": "f",
+        "synset": "watch.n.01"
+    }
+]

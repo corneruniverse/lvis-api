@@ -219,6 +219,24 @@ class LVIS:
         """
         return self.dataset["categories"]
 
+    def get_cat_names(self):
+        """
+        Returns a list of category names (strings) from the LVIS dataset.
+        By default, this returns the first synonym in each category's 'synonyms' list.
+        """
+        cat_names = []
+        categories = self.dataset.get('categories', [])
+        
+        for cat in categories:
+            # Make sure 'synonyms' exists and has at least one element
+            if 'synonyms' in cat and cat['synonyms']:
+                cat_names.append(cat['synonyms'][0])
+            else:
+                # Fallback in case 'synonyms' is missing or empty
+                cat_names.append(None)
+                
+        return cat_names
+
     def write_categories_to_csv(self, csv_file_path):
         """
         Writes the LVIS categories to a CSV file.
@@ -549,41 +567,7 @@ class LVIS:
     
     
 
-    def get_cat_names(self):
-        """
-        Returns a list of category names (strings) from the LVIS dataset.
-        By default, this returns the first synonym in each category's 'synonyms' list.
-        """
-        cat_names = []
-        categories = self.dataset.get('categories', [])
-        
-        for cat in categories:
-            # Make sure 'synonyms' exists and has at least one element
-            if 'synonyms' in cat and cat['synonyms']:
-                cat_names.append(cat['synonyms'][0])
-            else:
-                # Fallback in case 'synonyms' is missing or empty
-                cat_names.append(None)
-                
-        return cat_names
-
-    def get_cat_names(self):
-        """
-        Returns a list of category names (strings) from the LVIS dataset.
-        By default, this returns the first synonym in each category's 'synonyms' list.
-        """
-        cat_names = []
-        categories = self.dataset.get('categories', [])
-        
-        for cat in categories:
-            # Make sure 'synonyms' exists and has at least one element
-            if 'synonyms' in cat and cat['synonyms']:
-                cat_names.append(cat['synonyms'][0])
-            else:
-                # Fallback in case 'synonyms' is missing or empty
-                cat_names.append(None)
-                
-        return cat_names
+    
 
         
 
