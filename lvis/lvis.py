@@ -100,6 +100,117 @@ class LVIS:
         ]
         return ann_ids
 
+    def get_cat_ids(self):
+        """Get all category ids.
+
+        Returns:
+            ids (int array): integer array of category ids
+        """
+        return list(self.cats.keys())
+        
+
+    def get_img_ids(self):
+        """Get all img ids.
+
+        Returns:
+            ids (int array): integer array of image ids
+        """
+        return list(self.imgs.keys())
+
+    def _load_helper(self, _dict, ids):
+        if ids is None:
+            return list(_dict.values())
+        else:
+            return [_dict[id] for id in ids]
+
+    def load_anns(self, ids=None):
+        """Load anns with the specified ids. If ids=None load all anns.
+
+        Args:
+            ids (int array): integer array of annotation ids
+
+        Returns:
+            anns (dict array) : loaded annotation objects
+        """
+        return self._load_helper(self.anns, ids)
+
+    def load_cats(self, ids):
+        """Load categories with the specified ids. If ids=None load all
+        categories.
+
+        Args:
+            ids (int array): integer array of category ids
+
+        Returns:
+            cats (dict array) : loaded category dicts
+        """
+        return self._load_helper(self.cats, ids)
+
+    def load_imgs(self, ids):
+        """Load categories with the specified ids. If ids=None load all images.
+
+        Args:
+            ids (int array): integer array of image ids
+
+        Returns:
+            imgs (dict array) : loaded image dicts
+        """
+        return self._load_helper(self.imgs, ids)
+
+    def download(self, save_dir, img_ids=None):
+        """Download images from mscoco.org server.
+        Args:
+            save_dir (str): dir to save downloaded images
+            img_ids (int array): img ids of images to download
+        """
+        imgs = self.load_imgs(img_ids)
+
+        if not os.path.exists(save_dir):
+            os.makedirs(save_dir)
+
+        for img in imgs:
+            file_name = os.path.join(save_dir, img["coco_url"].split("/")[-1])
+            if not os.path.exists(file_name):
+                urlretrieve(img["coco_url"], file_name)
+
+    def ann_to_rle(self, ann):
+        """Convert annotation which can be polygons, uncompressed RLE to RLE.
+        Args:
+            ann (dict) : annotation object
+
+        Returns:
+            ann (rle)
+        """
+        img_data = self.imgs[ann["image_id"]]
+        h, w = img_data["height"], img_data["width"]
+        segm = ann["segmentation"]
+        if isinstance(segm, list):
+            # polygon -- a single object might consist of multiple parts
+            # we merge all parts into one mask rle code
+            rles = mask_utils.frPyObjects(segm, h, w)
+            rle = mask_utils.merge(rles)
+        elif isinstance(segm["counts"], list):
+            # uncompressed RLE
+            rle = mask_utils.frPyObjects(segm, h, w)
+        else:
+            # rle
+            rle = ann["segmentation"]
+        return rle
+
+    def ann_to_mask(self, ann):
+        """Convert annotation which can be polygons, uncompressed RLE, or RLE
+        to binary mask.
+        Args:
+            ann (dict) : annotation object
+
+        Returns:
+            binary mask (numpy 2D array)
+        """
+        rle = self.ann_to_rle(ann)
+        return mask_utils.decode(rle)
+
+# -- custom functions below ---
+
     def get_cat(self):
         """Get all category info.
 
@@ -107,8 +218,6 @@ class LVIS:
             ? (? array): string array of category names
         """
         return self.dataset["categories"]
-
-    
 
     def write_categories_to_csv(self, csv_file_path):
         """
@@ -157,6 +266,7 @@ class LVIS:
                 writer.writerow(row_data)
 
         print(f"Categories successfully written to {csv_file_path}")
+
 
     def write_annotations_for_category(self, category_id, csv_file_path):
         """
@@ -264,6 +374,97 @@ class LVIS:
         # print(f"Downloaded images and created YOLO labels for category_id={category_id}.\n"
         #     f"Images in: {images_folder_path}\nLabels in: {labels_folder_path}")
 
+    def export_labels(self, labels_folder_path, category_id, category_index):
+        """
+        1) Gather all image IDs that have annotations for the specified category_id.
+        2) From those images, collect only the annotations that match the same category_id.
+        3) Label the images in YOLO format, exporting one *.txt file per image (if no objects in image, no *.txt file).
+        Format: class x_center y_center width height
+        - Box coordinates must be in normalized xywh.
+        - Class numbers are zero-indexed (start from 0).
+
+        Args:
+            category_id (int): The category ID to filter on.
+            images_folder_path (str): The directory to save the images.
+            labels_folder_path (str): The directory to save the YOLO label files.
+        """
+        # Ensure output directories exist
+        # os.makedirs(images_folder_path, exist_ok=True)
+        os.makedirs(labels_folder_path, exist_ok=True)
+        # 1) Identify all image_ids containing this category
+        image_ids_for_category = set()
+        image_ids_for_category = self.get_image_ids(category_id)
+
+        # 2) Collect annotations that match both the category and the image_ids
+        # Group annotations by their image_id for easy lookup
+        image_id_to_annotations = defaultdict(list)
+        image_id_to_annotations = self.get_annotations(category_id, image_ids_for_category)
+
+
+        # 3) Export YOLO labels
+        imgs = self.load_imgs(image_ids_for_category)
+        for img in imgs:
+            # file_name still includes .jpg at the end instead of .txt
+            coco_url = img["coco_url"]
+            image_name = coco_url.split("/")[-1]
+            # replace the characters .jpg with .txt
+            base_name = os.path.splitext(image_name)[0]  # Removes the extension
+            label_file_name = base_name + '.txt'
+            # Construct the label file path (same base name, .txt extension)
+            label_file_path = os.path.join(labels_folder_path, label_file_name)
+            img_width = img["width"]
+            img_height = img["height"]
+
+            # If missing critical info, skip
+            if not (coco_url and img_width and img_height):
+                continue
+
+            # Gather bounding boxes for this image
+            annotations_for_image = image_id_to_annotations[img["id"]]
+
+            # If no bounding boxes for this category, do not create a label file
+            if not annotations_for_image:
+                continue
+
+
+            for ann in annotations_for_image:
+                # 'bbox' is typically [x, y, width, height] in pixel coordinates
+                bbox = ann.get('bbox', None)
+                if not bbox or len(bbox) != 4:
+                    continue
+
+                x, y, w, h = bbox
+
+                # Convert to YOLO-style normalized coordinates
+                x_center = (x + w / 2.0) / img_width
+                y_center = (y + h / 2.0) / img_height
+                w_norm = w / img_width
+                h_norm = h / img_height
+
+                # Categories are zero-indexed
+                class_idx = category_index
+
+                # Write one line per bounding box
+                # Format as floats; you can refine precision as needed
+                # Construct the line to be added
+                # Construct the single bounding-box line we want to add
+                bbox_line = f"{class_idx} {x_center:.6f} {y_center:.6f} {w_norm:.6f} {h_norm:.6f}"
+                # label_file.write(f"{class_idx} {x_center:.6f} {y_center:.6f} {w_norm:.6f} {h_norm:.6f}\n")
+
+                # If the file exists, make sure to not overwrite. Do not delete the information that is already there.
+                # Gather existing lines if the file already exists
+                existing_lines = set()
+                if os.path.exists(label_file_path):
+                    with open(label_file_path, 'r') as existing_file:
+                        for line in existing_file:
+                            existing_lines.add(line.strip())  # strip to remove trailing newline
+                # If the file already contains what was to be written, skip
+                # If this line isn't already in the file, append it
+                if bbox_line not in existing_lines:
+                    with open(label_file_path, 'a') as label_file:
+                        label_file.write(bbox_line + "\n")
+    
+        
 
     def download_and_export_labels(self, image_ids_for_category, image_id_to_annotations):
         """
@@ -346,13 +547,25 @@ class LVIS:
                     label_file.write(f"{class_idx} {x_center:.6f} {y_center:.6f} {w_norm:.6f} {h_norm:.6f}\n")
 
     
-    def get_cat_ids(self):
-        """Get all category ids.
+    
 
-        Returns:
-            ids (int array): integer array of category ids
+    def get_cat_names(self):
         """
-        return list(self.cats.keys())
+        Returns a list of category names (strings) from the LVIS dataset.
+        By default, this returns the first synonym in each category's 'synonyms' list.
+        """
+        cat_names = []
+        categories = self.dataset.get('categories', [])
+        
+        for cat in categories:
+            # Make sure 'synonyms' exists and has at least one element
+            if 'synonyms' in cat and cat['synonyms']:
+                cat_names.append(cat['synonyms'][0])
+            else:
+                # Fallback in case 'synonyms' is missing or empty
+                cat_names.append(None)
+                
+        return cat_names
 
     def get_cat_names(self):
         """
@@ -374,102 +587,3 @@ class LVIS:
 
         
 
-    def get_img_ids(self):
-        """Get all img ids.
-
-        Returns:
-            ids (int array): integer array of image ids
-        """
-        return list(self.imgs.keys())
-
-    def _load_helper(self, _dict, ids):
-        if ids is None:
-            return list(_dict.values())
-        else:
-            return [_dict[id] for id in ids]
-
-    def load_anns(self, ids=None):
-        """Load anns with the specified ids. If ids=None load all anns.
-
-        Args:
-            ids (int array): integer array of annotation ids
-
-        Returns:
-            anns (dict array) : loaded annotation objects
-        """
-        return self._load_helper(self.anns, ids)
-
-    def load_cats(self, ids):
-        """Load categories with the specified ids. If ids=None load all
-        categories.
-
-        Args:
-            ids (int array): integer array of category ids
-
-        Returns:
-            cats (dict array) : loaded category dicts
-        """
-        return self._load_helper(self.cats, ids)
-
-    def load_imgs(self, ids):
-        """Load categories with the specified ids. If ids=None load all images.
-
-        Args:
-            ids (int array): integer array of image ids
-
-        Returns:
-            imgs (dict array) : loaded image dicts
-        """
-        return self._load_helper(self.imgs, ids)
-
-    def download(self, save_dir, img_ids=None):
-        """Download images from mscoco.org server.
-        Args:
-            save_dir (str): dir to save downloaded images
-            img_ids (int array): img ids of images to download
-        """
-        imgs = self.load_imgs(img_ids)
-
-        if not os.path.exists(save_dir):
-            os.makedirs(save_dir)
-
-        for img in imgs:
-            file_name = os.path.join(save_dir, img["coco_url"].split("/")[-1])
-            if not os.path.exists(file_name):
-                urlretrieve(img["coco_url"], file_name)
-
-    def ann_to_rle(self, ann):
-        """Convert annotation which can be polygons, uncompressed RLE to RLE.
-        Args:
-            ann (dict) : annotation object
-
-        Returns:
-            ann (rle)
-        """
-        img_data = self.imgs[ann["image_id"]]
-        h, w = img_data["height"], img_data["width"]
-        segm = ann["segmentation"]
-        if isinstance(segm, list):
-            # polygon -- a single object might consist of multiple parts
-            # we merge all parts into one mask rle code
-            rles = mask_utils.frPyObjects(segm, h, w)
-            rle = mask_utils.merge(rles)
-        elif isinstance(segm["counts"], list):
-            # uncompressed RLE
-            rle = mask_utils.frPyObjects(segm, h, w)
-        else:
-            # rle
-            rle = ann["segmentation"]
-        return rle
-
-    def ann_to_mask(self, ann):
-        """Convert annotation which can be polygons, uncompressed RLE, or RLE
-        to binary mask.
-        Args:
-            ann (dict) : annotation object
-
-        Returns:
-            binary mask (numpy 2D array)
-        """
-        rle = self.ann_to_rle(ann)
-        return mask_utils.decode(rle)

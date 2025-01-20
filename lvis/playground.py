@@ -1,18 +1,14 @@
 from lvis import LVIS
 from collections import defaultdict
 
+category_id = 45 # 45 = banana
+# category_id = 301 # 301 = convertible
+# category_id = 21 # 21 = armor
 obj = LVIS("../dataset/lvis_v1_train.json")
+images_folder_path = "test/lvis_top1/images/train"
+labels_folder_path = "test/lvis_top1/labels/train"
 
-# obj.write_categories_to_csv("lvis_val_categories.csv")
-# obj.write_annotations_for_category(21,"lvis_train_armor_annotations.csv")
+category_index = 0
 
-# obj.download_images_for_category(301, 1, "convertible_dataset/images/train", "convertible_dataset/labels/train")
-category_id = 301
-images_folder_path = "convertible2/images/train"
-
-image_ids_for_category = set()
-image_ids_for_category = obj.get_image_ids(category_id)
-print("Image IDs for Category:")
-print(image_ids_for_category)
-
-obj.download_images_for_category(images_folder_path, category_id)
+# obj.download_images_for_category(images_folder_path, category_id)
+obj.export_labels(labels_folder_path, category_id, category_index)
