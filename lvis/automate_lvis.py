@@ -39,11 +39,11 @@ if __name__ == "__main__":
     
     train_obj = LVIS("../dataset/lvis_v1_train.json")
     val_obj = LVIS("../dataset/lvis_v1_val.json")
-    images_folder_path = "test/top_25/images/train"
-    labels_folder_path = "test/top_25/labels/train"
+    images_folder_path_train = "test/top_25/images/train"
+    labels_folder_path_train = "test/top_25/labels/train"
 
-    images_folder_path = "test/top_25/images/val"
-    labels_folder_path = "test/top_25/labels/val"
+    images_folder_path_val = "test/top_25/images/val"
+    labels_folder_path_val = "test/top_25/labels/val"
     detect_yaml = defaultdict(list)
     category_index = 0
     for category in top_25:
@@ -51,11 +51,11 @@ if __name__ == "__main__":
         # Group categories by their index for easy lookup in yaml
         detect_yaml[category_index] = category["name"]
         category_id = category["id"]
-        train_obj.download_images_for_category(images_folder_path, category_id)
-        train_obj.export_labels(labels_folder_path, category_id, category_index)
+        train_obj.download_images_for_category(images_folder_path_train, category_id)
+        train_obj.export_labels(labels_folder_path_train, category_id, category_index)
 
-        val_obj.download_images_for_category(images_folder_path, category_id)
-        val_obj.export_labels(labels_folder_path, category_id, category_index)
+        val_obj.download_images_for_category(images_folder_path_val, category_id)
+        val_obj.export_labels(labels_folder_path_val, category_id, category_index)
 
         #end of the loop, increase category index
         category_index += 1
