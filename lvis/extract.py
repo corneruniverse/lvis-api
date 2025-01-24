@@ -58,13 +58,13 @@ def get_categories_by_name(json_path, name_array):
         categories = json.load(f)
 
     # Filter categories by name
-    filtered_categories = [cat for cat in categories if cat.get('name') in name_array]
+    filtered_categories = [cat for cat in categories if cat.get('synset') in name_array]
     
-    # Sort by image_count in descending order
-    sorted_categories = sorted(filtered_categories, key=lambda x: x.get('image_count', 0), reverse=True)
+    # # Sort by image_count in descending order
+    # sorted_categories = sorted(filtered_categories, key=lambda x: x.get('image_count', 0), reverse=True)
     
     # Return the results
-    return sorted_categories
+    return filtered_categories
 
 
 def write_to_json(json_path, data):
