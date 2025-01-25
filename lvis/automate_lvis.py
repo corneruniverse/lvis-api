@@ -32,22 +32,22 @@ def write_to_json(json_path, data):
 
 # Example usage:
 if __name__ == "__main__":
-    json_path = "lvis_categories_train_top_25.json"
-    top_25 = get_categories_alphabetized(json_path)
-    for cat in top_25:
+    json_path = "lvis_categories_train_govivid_95.json"
+    govivid_95 = get_categories_alphabetized(json_path)
+    for cat in govivid_95:
         print(f"ID: {cat['id']} | image_count: {cat['image_count']} | name/synset: {cat['synset']}")
     
     train_obj = LVIS("../dataset/lvis_v1_train.json")
     val_obj = LVIS("../dataset/lvis_v1_val.json")
-    images_folder_path_train = "test/top_25/images/train"
-    labels_folder_path_train = "test/top_25/labels/train"
+    images_folder_path_train = "test/govivid_95/images/train"
+    labels_folder_path_train = "test/govivid_95/labels/train"
 
-    images_folder_path_val = "test/top_25/images/val"
-    labels_folder_path_val = "test/top_25/labels/val"
+    images_folder_path_val = "test/govivid_95/images/val"
+    labels_folder_path_val = "test/govivid_95/labels/val"
     detect_yaml = defaultdict(list)
     category_index = 0
-    for category in top_25:
-        print(f"name: {category["name"]} , category_index = {category_index}")
+    for category in govivid_95:
+        print(f"name: {category['name']} , category_index = {category_index}")
         # Group categories by their index for easy lookup in yaml
         detect_yaml[category_index] = category["name"]
         category_id = category["id"]
@@ -60,4 +60,4 @@ if __name__ == "__main__":
         #end of the loop, increase category index
         category_index += 1
 
-    write_to_json("top_25_detect_yaml.json", detect_yaml)
+    write_to_json("govivid_95_detect_yaml.json", detect_yaml)
