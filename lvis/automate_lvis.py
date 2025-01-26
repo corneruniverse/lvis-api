@@ -39,11 +39,17 @@ if __name__ == "__main__":
     
     train_obj = LVIS("../dataset/lvis_v1_train.json")
     val_obj = LVIS("../dataset/lvis_v1_val.json")
+    test_obj = LVIS("../dataset/lvis_v1_image_info_test_dev.json")
+
     images_folder_path_train = "test/govivid_95/images/train"
     labels_folder_path_train = "test/govivid_95/labels/train"
 
     images_folder_path_val = "test/govivid_95/images/val"
     labels_folder_path_val = "test/govivid_95/labels/val"
+
+    images_folder_path_test = "test/govivid_95/images/test"
+    labels_folder_path_test = "test/govivid_95/labels/test"
+
     detect_yaml = defaultdict(list)
     category_index = 0
     for category in govivid_95:
@@ -56,6 +62,9 @@ if __name__ == "__main__":
 
         val_obj.download_images_for_category(images_folder_path_val, category_id)
         val_obj.export_labels(labels_folder_path_val, category_id, category_index)
+
+        test_obj.download_images_for_category(images_folder_path_test, category_id)
+        test_obj.export_labels(labels_folder_path_test, category_id, category_index)
 
         #end of the loop, increase category index
         category_index += 1
