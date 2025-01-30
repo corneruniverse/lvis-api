@@ -1,7 +1,7 @@
 import json
 from lvis import LVIS
 from collections import defaultdict
-from custom_categories import lvis_category_names_govivid_95
+from custom_categories import lvis_category_names_govivid_62
 
 
 # the goal is to correspond the category names and category ids
@@ -74,9 +74,9 @@ def write_to_json(json_path, data):
 # Example usage:
 if __name__ == "__main__":
     json_path = "lvis_categories_train.json"
-    categories_govivid_95 = get_categories_by_name(json_path, lvis_category_names_govivid_95)
-    for cat in categories_govivid_95:
+    categories_govivid_62 = get_categories_by_name(json_path, lvis_category_names_govivid_62)
+    for cat in categories_govivid_62:
         print(f"ID: {cat['id']} | image_count: {cat['image_count']} | name/synset: {cat['synset']}")
 
-    govivid_95_json_path = "lvis_categories_train_govivid_95.json"
-    write_to_json(govivid_95_json_path, categories_govivid_95)
+    govivid_62_json_path = "lvis_categories_train_govivid_62.json"
+    write_to_json(govivid_62_json_path, categories_govivid_62)

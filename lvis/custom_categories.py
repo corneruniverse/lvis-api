@@ -1,8 +1,234 @@
 # custom_categories.py
 # categories that Jennifer has chosen
-lvis_category_names_govivid_95= [
+
+lvis_category_names_govivid_1 = [
+    "airplane.n.01"
+]
+
+lvis_category_names_govivid_2 = [
+    "baseball_cap.n.01"
+]
+
+lvis_category_names_govivid_3 = [
+    "bathtub.n.01"
+]
+
+lvis_category_names_govivid_4 = [
+    "bicycle.n.01"
+]
+
+lvis_category_names_govivid_5 = [
+    "bird.n.01"
+]
+
+lvis_category_names_govivid_6 = [
+    "boat.n.01"
+]
+
+lvis_category_names_govivid_7 = [
+    "book.n.01"
+]
+
+lvis_category_names_govivid_8 = [
+    "boot.n.01"
+]
+
+lvis_category_names_govivid_9 = [
+    "bus.n.01"
+]
+
+lvis_category_names_govivid_10 = [
+    "camera.n.01"
+]
+
+lvis_category_names_govivid_11 = [
+    "car.n.01"
+]
+
+lvis_category_names_govivid_12 = [
+    "clock.n.01"
+]
+
+lvis_category_names_govivid_13 = [
+    "computer_keyboard.n.01"
+]
+
+lvis_category_names_govivid_14 = [
+    "desk.n.01"
+]
+
+lvis_category_names_govivid_15 = [
+    "doorknob.n.01"
+]
+
+lvis_category_names_govivid_16 = [
+    "fan.n.01"
+]
+
+lvis_category_names_govivid_17 = [
+    "flag.n.01"
+]
+
+lvis_category_names_govivid_18 = [
+    "grill.n.02"
+]
+
+lvis_category_names_govivid_19 = [
+    "hat.n.01"
+]
+
+lvis_category_names_govivid_20 = [
+    "key.n.01"
+]
+
+lvis_category_names_govivid_21 = [
+    "knob.n.02"
+]
+
+lvis_category_names_govivid_22 = [
+    "ladder.n.01"
+]
+
+lvis_category_names_govivid_23 = [
+    "lampshade.n.01"
+]
+
+lvis_category_names_govivid_24 = [
+    "lemon.n.01"
+]
+
+lvis_category_names_govivid_25 = [
+    "light_bulb.n.01"
+]
+
+lvis_category_names_govivid_26 = [
+    "monitor.n.04"
+]
+
+lvis_category_names_govivid_27 = [
+    "money.n.03"
+]
+
+lvis_category_names_govivid_28 = [
+    "mouse.n.04"
+]
+
+lvis_category_names_govivid_29 = [
+    "motorcycle.n.01"
+]
+
+lvis_category_names_govivid_30 = [
+    "pan.n.01"
+]
+
+lvis_category_names_govivid_31 = [
+    "paper_plate.n.01"
+]
+
+lvis_category_names_govivid_32 = [
+    "pear.n.01"
+]
+
+lvis_category_names_govivid_33 = [
+    "pen.n.01"
+]
+
+lvis_category_names_govivid_34 = [
+    "pickup.n.01"
+]
+
+lvis_category_names_govivid_35 = [
+    "remote_control.n.01"
+]
+
+lvis_category_names_govivid_36 = [
+    "saddle.n.01"
+]
+
+lvis_category_names_govivid_37 = [
+    "saltshaker.n.01"
+]
+
+lvis_category_names_govivid_38 = [
+    "scissors.n.01"
+]
+
+lvis_category_names_govivid_39 = [
+    "shirt.n.01"
+]
+
+lvis_category_names_govivid_40 = [
+    "shoe.n.01"
+]
+
+lvis_category_names_govivid_41 = [
+    "sock.n.01"
+]
+
+lvis_category_names_govivid_42 = [
+    "sofa.n.01"
+]
+
+lvis_category_names_govivid_43 = [
+    "spectacles.n.01"
+]
+
+lvis_category_names_govivid_44 = [
+    "stop_sign.n.01"
+]
+
+lvis_category_names_govivid_45 = [
+    "stove.n.01"
+]
+
+lvis_category_names_govivid_46 = [
+    "street_sign.n.01"
+]
+
+lvis_category_names_govivid_47 = [
+    "sunglasses.n.01"
+]
+
+lvis_category_names_govivid_48 = [
+    "telephone.n.01"
+]
+
+lvis_category_names_govivid_49 = [
+    "television_receiver.n.01"
+]
+
+lvis_category_names_govivid_50 = [
+    "tennis_racket.n.01"
+]
+
+lvis_category_names_govivid_51 = [
+    "toothbrush.n.01"
+]
+
+lvis_category_names_govivid_52 = [
+    "traffic_light.n.01"
+]
+
+lvis_category_names_govivid_53 = [
+    "train.n.01"
+]
+
+lvis_category_names_govivid_54 = [
+    "urinal.n.01"
+]
+
+lvis_category_names_govivid_55 = [
+    "vest.n.01"
+]
+
+lvis_category_names_govivid_56 = [
+    "watch.n.01"
+]
+
+
+
+lvis_category_names_govivid_56= [
     "airplane.n.01",
-    "ashcan.n.01",
     "baseball_cap.n.01",
     "bathtub.n.01",
     "bicycle.n.01",
@@ -11,42 +237,22 @@ lvis_category_names_govivid_95= [
     "book.n.01",
     "boot.n.01",
     "bus.n.01",
-    "cabinet.n.03",
-    "calculator.n.02",
-    "calendar.n.02",
     "camera.n.01",
     "car.n.01",
-    "chessboard.n.01",
     "clock.n.01",
-    "clothes_hamper.n.01",
-    "coat_hanger.n.01",
-    "coatrack.n.01",
     "computer_keyboard.n.01",
-    "cornet.n.01",
-    "crib.n.01",
-    "crucifix.n.01",
-    "dartboard.n.01",
     "desk.n.01",
     "doorknob.n.01",
-    "earplug.n.01",
-    "envelope.n.01",
-    "electric_refrigerator.n.01",
     "fan.n.01",
     "flag.n.01",
     "grill.n.02",
-    "hairbrush.n.01"
-    "hand_blower.n.01"
-    "handle.n.01",
     "hat.n.01",
-    "kayak.n.01",
     "key.n.01",
     "knob.n.02",
-    "ladder.n.01"
+    "ladder.n.01",
     "lampshade.n.01",
     "lemon.n.01",
     "light_bulb.n.01",
-    "melon.n.01",
-    "microphone.n.01",
     "monitor.n.04",
     "money.n.03"
     "mouse.n.04",
@@ -55,45 +261,27 @@ lvis_category_names_govivid_95= [
     "paper_plate.n.01",
     "pear.n.01",
     "pen.n.01",
-    "pencil.n.01",
     "pickup.n.01",
-    "pigeon.n.01",
-    "pumpkin.n.02",
     "remote_control.n.01",
-    "roller_skate.n.01",
-    "rollerblade.n.01",
     "saddle.n.01",
     "saltshaker.n.01",
     "scissors.n.01",
-    "screwdriver.n.01",
-    "sewing_machine.n.01",
-    "shaver.n.03",
     "shirt.n.01",
     "shoe.n.01",
-    "shopping_cart.n.01",
     "sock.n.01",
-    "sofa.n.01"
+    "sofa.n.01",
     "spectacles.n.01",
-    "squirrel.n.01",
-    "stop_sign.n.01"
+    "stop_sign.n.01",
     "stove.n.01",
     "street_sign.n.01",
     "sunglasses.n.01",
-    "syringe.n.01"
     "telephone.n.01",
     "television_receiver.n.01",
     "tennis_racket.n.01",
-    "toaster_oven.n.01",
     "toothbrush.n.01",
-    "toothpaste.n.01",
-    "tow_truck.n.01",
     "traffic_light.n.01",
     "train.n.01",
     "urinal.n.01",
     "vest.n.01",
-    "vending_machine.n.01",
-    "violin.n.01",
-    "wagon_wheel.n.01",
     "watch.n.01",
-    "wheelchair.n.01"
 ]

@@ -1,0 +1,680 @@
+[
+    {
+        "name": "airplane",
+        "instance_count": 3720,
+        "def": "an aircraft that has a fixed wing and is powered by propellers or jets",
+        "synonyms": [
+            "airplane",
+            "aeroplane"
+        ],
+        "image_count": 1911,
+        "id": 3,
+        "frequency": "f",
+        "synset": "airplane.n.01"
+    },
+    {
+        "name": "baseball_cap",
+        "instance_count": 9028,
+        "def": "a cap with a bill",
+        "synonyms": [
+            "baseball_cap",
+            "jockey_cap",
+            "golf_cap"
+        ],
+        "image_count": 1934,
+        "id": 59,
+        "frequency": "f",
+        "synset": "baseball_cap.n.01"
+    },
+    {
+        "name": "bathtub",
+        "instance_count": 868,
+        "def": "a large open container that you fill with water and use to wash the body",
+        "synonyms": [
+            "bathtub",
+            "bathing_tub"
+        ],
+        "image_count": 823,
+        "id": 68,
+        "frequency": "f",
+        "synset": "bathtub.n.01"
+    },
+    {
+        "name": "bicycle",
+        "instance_count": 4566,
+        "def": "a wheeled vehicle that has two wheels and is moved by foot pedals",
+        "synonyms": [
+            "bicycle",
+            "bike_(bicycle)"
+        ],
+        "image_count": 1852,
+        "id": 94,
+        "frequency": "f",
+        "synset": "bicycle.n.01"
+    },
+    {
+        "name": "bird",
+        "instance_count": 11557,
+        "def": "animal characterized by feathers and wings",
+        "synonyms": [
+            "bird"
+        ],
+        "image_count": 1821,
+        "id": 99,
+        "frequency": "f",
+        "synset": "bird.n.01"
+    },
+    {
+        "name": "boat",
+        "instance_count": 9981,
+        "def": "a vessel for travel on water",
+        "synonyms": [
+            "boat",
+            "ship_(boat)"
+        ],
+        "image_count": 1758,
+        "id": 118,
+        "frequency": "f",
+        "synset": "boat.n.01"
+    },
+    {
+        "name": "book",
+        "instance_count": 33353,
+        "def": "a written work or composition that has been published",
+        "synonyms": [
+            "book"
+        ],
+        "image_count": 1903,
+        "id": 127,
+        "frequency": "f",
+        "synset": "book.n.01"
+    },
+    {
+        "name": "boot",
+        "instance_count": 4194,
+        "def": "footwear that covers the whole foot and lower leg",
+        "synonyms": [
+            "boot"
+        ],
+        "image_count": 1406,
+        "id": 132,
+        "frequency": "f",
+        "synset": "boot.n.01"
+    },
+    {
+        "name": "bus_(vehicle)",
+        "instance_count": 3281,
+        "def": "a vehicle carrying many passengers; used for public transport",
+        "synonyms": [
+            "bus_(vehicle)",
+            "autobus",
+            "charabanc",
+            "double-decker",
+            "motorbus",
+            "motorcoach"
+        ],
+        "image_count": 1808,
+        "id": 173,
+        "frequency": "f",
+        "synset": "bus.n.01"
+    },
+    {
+        "name": "camera",
+        "instance_count": 2471,
+        "def": "equipment for taking photographs",
+        "synonyms": [
+            "camera"
+        ],
+        "image_count": 1391,
+        "id": 189,
+        "frequency": "f",
+        "synset": "camera.n.01"
+    },
+    {
+        "name": "car_(automobile)",
+        "instance_count": 10528,
+        "def": "a motor vehicle with four wheels",
+        "synonyms": [
+            "car_(automobile)",
+            "auto_(automobile)",
+            "automobile"
+        ],
+        "image_count": 1926,
+        "id": 207,
+        "frequency": "f",
+        "synset": "car.n.01"
+    },
+    {
+        "name": "clock",
+        "instance_count": 2677,
+        "def": "a timepiece that shows the time of day",
+        "synonyms": [
+            "clock",
+            "timepiece",
+            "timekeeper"
+        ],
+        "image_count": 1844,
+        "id": 271,
+        "frequency": "f",
+        "synset": "clock.n.01"
+    },
+    {
+        "name": "coat_hanger",
+        "instance_count": 282,
+        "def": "a hanger that is shaped like a person's shoulders",
+        "synonyms": [
+            "coat_hanger",
+            "clothes_hanger",
+            "dress_hanger"
+        ],
+        "image_count": 44,
+        "id": 278,
+        "frequency": "c",
+        "synset": "coat_hanger.n.01"
+    },
+    {
+        "name": "computer_keyboard",
+        "instance_count": 2745,
+        "def": "a keyboard that is a data input device for computers",
+        "synonyms": [
+            "computer_keyboard",
+            "keyboard_(computer)"
+        ],
+        "image_count": 1871,
+        "id": 296,
+        "frequency": "f",
+        "synset": "computer_keyboard.n.01"
+    },
+    {
+        "name": "desk",
+        "instance_count": 1662,
+        "def": "a piece of furniture with a writing surface and usually drawers or other compartments",
+        "synonyms": [
+            "desk"
+        ],
+        "image_count": 1100,
+        "id": 361,
+        "frequency": "f",
+        "synset": "desk.n.01"
+    },
+    {
+        "name": "doorknob",
+        "instance_count": 4072,
+        "def": "a knob used to open a door (often called `doorhandle' in Great Britain)",
+        "synonyms": [
+            "doorknob",
+            "doorhandle"
+        ],
+        "image_count": 1710,
+        "id": 385,
+        "frequency": "f",
+        "synset": "doorknob.n.01"
+    },
+    {
+        "name": "fan",
+        "instance_count": 737,
+        "def": "a device for creating a current of air by movement of a surface or surfaces",
+        "synonyms": [
+            "fan"
+        ],
+        "image_count": 575,
+        "id": 429,
+        "frequency": "f",
+        "synset": "fan.n.01"
+    },
+    {
+        "name": "flag",
+        "instance_count": 7007,
+        "def": "emblem usually consisting of a rectangular piece of cloth of distinctive design (do not include pole)",
+        "synonyms": [
+            "flag"
+        ],
+        "image_count": 1908,
+        "id": 451,
+        "frequency": "f",
+        "synset": "flag.n.01"
+    },
+    {
+        "name": "grill",
+        "instance_count": 747,
+        "def": "a framework of metal bars used as a partition or a grate",
+        "synonyms": [
+            "grill",
+            "grille",
+            "grillwork",
+            "radiator_grille"
+        ],
+        "image_count": 363,
+        "id": 517,
+        "frequency": "f",
+        "synset": "grill.n.02"
+    },
+    {
+        "name": "hat",
+        "instance_count": 7213,
+        "def": "headwear that protects the head from bad weather, sun, or worn for fashion",
+        "synonyms": [
+            "hat"
+        ],
+        "image_count": 1932,
+        "id": 544,
+        "frequency": "f",
+        "synset": "hat.n.01"
+    },
+    {
+        "name": "kayak",
+        "instance_count": 124,
+        "def": "a small canoe consisting of a light frame made watertight with animal skins",
+        "synonyms": [
+            "kayak"
+        ],
+        "image_count": 37,
+        "id": 601,
+        "frequency": "c",
+        "synset": "kayak.n.01"
+    },
+    {
+        "name": "key",
+        "instance_count": 447,
+        "def": "metal instrument used to unlock a lock",
+        "synonyms": [
+            "key"
+        ],
+        "image_count": 195,
+        "id": 605,
+        "frequency": "f",
+        "synset": "key.n.01"
+    },
+    {
+        "name": "knob",
+        "instance_count": 8432,
+        "def": "a round handle often found on a door",
+        "synonyms": [
+            "knob"
+        ],
+        "image_count": 1567,
+        "id": 617,
+        "frequency": "f",
+        "synset": "knob.n.02"
+    },
+    {
+        "name": "ladder",
+        "instance_count": 975,
+        "def": "steps consisting of two parallel members connected by rungs",
+        "synonyms": [
+            "ladder"
+        ],
+        "image_count": 629,
+        "id": 621,
+        "frequency": "f",
+        "synset": "ladder.n.01"
+    },
+    {
+        "name": "lampshade",
+        "instance_count": 2475,
+        "def": "a protective ornamental shade used to screen a light bulb from direct view",
+        "synonyms": [
+            "lampshade"
+        ],
+        "image_count": 1210,
+        "id": 628,
+        "frequency": "f",
+        "synset": "lampshade.n.01"
+    },
+    {
+        "name": "lemon",
+        "instance_count": 2168,
+        "def": "yellow oval fruit with juicy acidic flesh",
+        "synonyms": [
+            "lemon"
+        ],
+        "image_count": 341,
+        "id": 639,
+        "frequency": "f",
+        "synset": "lemon.n.01"
+    },
+    {
+        "name": "lightbulb",
+        "instance_count": 7075,
+        "def": "lightblub/source of light",
+        "synonyms": [
+            "lightbulb"
+        ],
+        "image_count": 861,
+        "id": 645,
+        "frequency": "f",
+        "synset": "light_bulb.n.01"
+    },
+    {
+        "name": "monitor_(computer_equipment) computer_monitor",
+        "instance_count": 2955,
+        "def": "a computer monitor",
+        "synonyms": [
+            "monitor_(computer_equipment) computer_monitor"
+        ],
+        "image_count": 1402,
+        "id": 698,
+        "frequency": "f",
+        "synset": "monitor.n.04"
+    },
+    {
+        "name": "motorcycle",
+        "instance_count": 5247,
+        "def": "a motor vehicle with two wheels and a strong frame",
+        "synonyms": [
+            "motorcycle"
+        ],
+        "image_count": 1720,
+        "id": 703,
+        "frequency": "f",
+        "synset": "motorcycle.n.01"
+    },
+    {
+        "name": "pan_(for_cooking)",
+        "instance_count": 643,
+        "def": "cooking utensil consisting of a wide metal vessel",
+        "synonyms": [
+            "pan_(for_cooking)",
+            "cooking_pan"
+        ],
+        "image_count": 229,
+        "id": 751,
+        "frequency": "f",
+        "synset": "pan.n.01"
+    },
+    {
+        "name": "paper_plate",
+        "instance_count": 957,
+        "def": "a disposable plate made of cardboard",
+        "synonyms": [
+            "paper_plate"
+        ],
+        "image_count": 328,
+        "id": 756,
+        "frequency": "f",
+        "synset": "paper_plate.n.01"
+    },
+    {
+        "name": "pear",
+        "instance_count": 1069,
+        "def": "sweet juicy gritty-textured fruit available in many varieties",
+        "synonyms": [
+            "pear"
+        ],
+        "image_count": 109,
+        "id": 776,
+        "frequency": "f",
+        "synset": "pear.n.01"
+    },
+    {
+        "name": "pen",
+        "instance_count": 987,
+        "def": "a writing implement with a point from which ink flows",
+        "synonyms": [
+            "pen"
+        ],
+        "image_count": 339,
+        "id": 781,
+        "frequency": "f",
+        "synset": "pen.n.01"
+    },
+    {
+        "name": "pickup_truck",
+        "instance_count": 838,
+        "def": "a light truck with an open body and low sides and a tailboard",
+        "synonyms": [
+            "pickup_truck"
+        ],
+        "image_count": 502,
+        "id": 800,
+        "frequency": "f",
+        "synset": "pickup.n.01"
+    },
+    {
+        "name": "pigeon",
+        "instance_count": 1850,
+        "def": "wild and domesticated birds having a heavy body and short legs",
+        "synonyms": [
+            "pigeon"
+        ],
+        "image_count": 87,
+        "id": 802,
+        "frequency": "c",
+        "synset": "pigeon.n.01"
+    },
+    {
+        "name": "pumpkin",
+        "instance_count": 1192,
+        "def": "usually large pulpy deep-yellow round fruit of the squash family maturing in late summer or early autumn",
+        "synonyms": [
+            "pumpkin"
+        ],
+        "image_count": 80,
+        "id": 854,
+        "frequency": "c",
+        "synset": "pumpkin.n.02"
+    },
+    {
+        "name": "remote_control",
+        "instance_count": 2467,
+        "def": "a device that can be used to control a machine or apparatus from a distance",
+        "synonyms": [
+            "remote_control"
+        ],
+        "image_count": 1096,
+        "id": 881,
+        "frequency": "f",
+        "synset": "remote_control.n.01"
+    },
+    {
+        "name": "saddle_(on_an_animal)",
+        "instance_count": 955,
+        "def": "a seat for the rider of a horse or camel",
+        "synonyms": [
+            "saddle_(on_an_animal)"
+        ],
+        "image_count": 521,
+        "id": 899,
+        "frequency": "f",
+        "synset": "saddle.n.01"
+    },
+    {
+        "name": "saltshaker",
+        "instance_count": 543,
+        "def": "a shaker with a perforated top for sprinkling salt",
+        "synonyms": [
+            "saltshaker"
+        ],
+        "image_count": 361,
+        "id": 910,
+        "frequency": "f",
+        "synset": "saltshaker.n.01"
+    },
+    {
+        "name": "scissors",
+        "instance_count": 1376,
+        "def": "a tool having two crossed pivoting blades with looped handles",
+        "synonyms": [
+            "scissors"
+        ],
+        "image_count": 707,
+        "id": 923,
+        "frequency": "f",
+        "synset": "scissors.n.01"
+    },
+    {
+        "name": "shirt",
+        "instance_count": 10177,
+        "def": "a garment worn on the upper half of the body",
+        "synonyms": [
+            "shirt"
+        ],
+        "image_count": 1942,
+        "id": 947,
+        "frequency": "f",
+        "synset": "shirt.n.01"
+    },
+    {
+        "name": "shoe",
+        "instance_count": 9374,
+        "def": "common footwear covering the foot",
+        "synonyms": [
+            "shoe",
+            "sneaker_(type_of_shoe)",
+            "tennis_shoe"
+        ],
+        "image_count": 1916,
+        "id": 948,
+        "frequency": "f",
+        "synset": "shoe.n.01"
+    },
+    {
+        "name": "sock",
+        "instance_count": 6866,
+        "def": "cloth covering for the foot; worn inside the shoe; reaches to between the ankle and the knee",
+        "synonyms": [
+            "sock"
+        ],
+        "image_count": 1945,
+        "id": 981,
+        "frequency": "f",
+        "synset": "sock.n.01"
+    },
+    {
+        "name": "street_sign",
+        "instance_count": 8350,
+        "def": "a sign visible from the street",
+        "synonyms": [
+            "street_sign"
+        ],
+        "image_count": 1911,
+        "id": 1026,
+        "frequency": "f",
+        "synset": "street_sign.n.01"
+    },
+    {
+        "name": "sunglasses",
+        "instance_count": 5603,
+        "def": "spectacles that are darkened or polarized to protect the eyes from the glare of the sun",
+        "synonyms": [
+            "sunglasses"
+        ],
+        "image_count": 1931,
+        "id": 1035,
+        "frequency": "f",
+        "synset": "sunglasses.n.01"
+    },
+    {
+        "name": "television_set",
+        "instance_count": 2205,
+        "def": "an electronic device that receives television signals and displays them on a screen",
+        "synonyms": [
+            "television_set",
+            "tv",
+            "tv_set"
+        ],
+        "image_count": 1900,
+        "id": 1077,
+        "frequency": "f",
+        "synset": "television_receiver.n.01"
+    },
+    {
+        "name": "tennis_racket",
+        "instance_count": 3035,
+        "def": "a racket used to play tennis",
+        "synonyms": [
+            "tennis_racket"
+        ],
+        "image_count": 1977,
+        "id": 1079,
+        "frequency": "f",
+        "synset": "tennis_racket.n.01"
+    },
+    {
+        "name": "toothbrush",
+        "instance_count": 1683,
+        "def": "small brush; has long handle; used to clean teeth",
+        "synonyms": [
+            "toothbrush"
+        ],
+        "image_count": 745,
+        "id": 1102,
+        "frequency": "f",
+        "synset": "toothbrush.n.01"
+    },
+    {
+        "name": "traffic_light",
+        "instance_count": 7298,
+        "def": "a device to control vehicle traffic often consisting of three or more lights",
+        "synonyms": [
+            "traffic_light"
+        ],
+        "image_count": 1890,
+        "id": 1112,
+        "frequency": "f",
+        "synset": "traffic_light.n.01"
+    },
+    {
+        "name": "train_(railroad_vehicle)",
+        "instance_count": 2192,
+        "def": "public or private transport provided by a line of railway cars coupled together and drawn by a locomotive",
+        "synonyms": [
+            "train_(railroad_vehicle)",
+            "railroad_train"
+        ],
+        "image_count": 1517,
+        "id": 1115,
+        "frequency": "f",
+        "synset": "train.n.01"
+    },
+    {
+        "name": "urinal",
+        "instance_count": 381,
+        "def": "a plumbing fixture (usually attached to the wall) used by men to urinate",
+        "synonyms": [
+            "urinal"
+        ],
+        "image_count": 139,
+        "id": 1136,
+        "frequency": "f",
+        "synset": "urinal.n.01"
+    },
+    {
+        "name": "vest",
+        "instance_count": 1313,
+        "def": "a man's sleeveless garment worn underneath a coat",
+        "synonyms": [
+            "vest",
+            "waistcoat"
+        ],
+        "image_count": 729,
+        "id": 1142,
+        "frequency": "f",
+        "synset": "vest.n.01"
+    },
+    {
+        "name": "wagon_wheel",
+        "instance_count": 209,
+        "def": "a wheel of a wagon",
+        "synonyms": [
+            "wagon_wheel"
+        ],
+        "image_count": 46,
+        "id": 1152,
+        "frequency": "c",
+        "synset": "wagon_wheel.n.01"
+    },
+    {
+        "name": "watch",
+        "instance_count": 2703,
+        "def": "a small, portable timepiece",
+        "synonyms": [
+            "watch",
+            "wristwatch"
+        ],
+        "image_count": 1923,
+        "id": 1161,
+        "frequency": "f",
+        "synset": "watch.n.01"
+    }
+]
