@@ -1,0 +1,16 @@
+[
+    {
+        "name": "baseball_cap",
+        "instance_count": 9028,
+        "def": "a cap with a bill",
+        "synonyms": [
+            "baseball_cap",
+            "jockey_cap",
+            "golf_cap"
+        ],
+        "image_count": 1934,
+        "id": 59,
+        "frequency": "f",
+        "synset": "baseball_cap.n.01"
+    }
+]

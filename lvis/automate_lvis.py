@@ -32,27 +32,27 @@ def write_to_json(json_path, data):
 
 # Example usage:
 if __name__ == "__main__":
-    json_path = "lvis_categories_train_govivid_62.json"
-    govivid_62 = get_categories_alphabetized(json_path)
-    for cat in govivid_62:
+    json_path = "lvis_categories_train_govivid_56.json"
+    govivid_56 = get_categories_alphabetized(json_path)
+    for cat in govivid_56:
         print(f"ID: {cat['id']} | image_count: {cat['image_count']} | name/synset: {cat['synset']}")
     
     train_obj = LVIS("../dataset/lvis_v1_train.json")
     val_obj = LVIS("../dataset/lvis_v1_val.json")
     test_obj = LVIS("../dataset/lvis_v1_image_info_test_dev.json")
 
-    images_folder_path_train = "test/govivid_62/images/train"
-    labels_folder_path_train = "test/govivid_62/labels/train"
+    images_folder_path_train = "test/govivid_56/images/train"
+    labels_folder_path_train = "test/govivid_56/labels/train"
 
-    images_folder_path_val = "test/govivid_62/images/val"
-    labels_folder_path_val = "test/govivid_62/labels/val"
+    images_folder_path_val = "test/govivid_56/images/val"
+    labels_folder_path_val = "test/govivid_56/labels/val"
 
-    images_folder_path_test = "test/govivid_62/images/test"
-    labels_folder_path_test = "test/govivid_62/labels/test"
+    images_folder_path_test = "test/govivid_56/images/test"
+    labels_folder_path_test = "test/govivid_56/labels/test"
 
     detect_yaml = defaultdict(list)
     category_index = 0
-    for category in govivid_62:
+    for category in govivid_56:
         print(f"name: {category['name']} , category_index = {category_index}")
         # Group categories by their index for easy lookup in yaml
         detect_yaml[category_index] = category["name"]
@@ -69,4 +69,4 @@ if __name__ == "__main__":
         #end of the loop, increase category index
         category_index += 1
 
-    write_to_json("govivid_62_detect_yaml.json", detect_yaml)
+    write_to_json("govivid_56_detect_yaml.json", detect_yaml)

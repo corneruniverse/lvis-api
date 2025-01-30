@@ -1,0 +1,15 @@
+[
+    {
+        "name": "airplane",
+        "instance_count": 3720,
+        "def": "an aircraft that has a fixed wing and is powered by propellers or jets",
+        "synonyms": [
+            "airplane",
+            "aeroplane"
+        ],
+        "image_count": 1911,
+        "id": 3,
+        "frequency": "f",
+        "synset": "airplane.n.01"
+    }
+]
